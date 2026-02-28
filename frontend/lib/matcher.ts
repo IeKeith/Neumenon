@@ -5,10 +5,10 @@ export interface RawProject {
 }
 
 export interface LinkedInProfile {
-  id: string
+  id?: string
   name: string
   city?: string
-  projects?: RawProject[]
+  projects?: RawProject[] | string
 }
 
 export interface Project {
@@ -25,25 +25,117 @@ export interface MatchedProject extends Project {
 }
 
 /**
+ * Parse a Python-style list string into a JSON array.
+ * Handles single quotes, None values, True/False, and embedded apostrophes.
+ *
+ * Strategy: walk character-by-character to correctly distinguish
+ * structural single quotes (delimiters) from apostrophes within values.
+ */
+function parsePythonList(raw: string): RawProject[] {
+  try {
+    // First pass: replace Python keywords outside of string values
+    let s = raw.trim()
+
+    // Walk through and convert single-quoted strings to double-quoted
+    let result = ""
+    let i = 0
+    while (i < s.length) {
+      if (s[i] === "'") {
+        // This is a structural opening single quote — find the closing one
+        // A closing quote is a ' followed by a structural char: , ] } :
+        result += '"'
+        i++
+        let value = ""
+        while (i < s.length) {
+          if (
+            s[i] === "'" &&
+            (i + 1 >= s.length || /[,\]\}:\s]/.test(s[i + 1]))
+          ) {
+            // Closing structural quote
+            break
+          }
+          // Escape any double quotes inside the value
+          if (s[i] === '"') {
+            value += '\\"'
+          } else if (s[i] === "\\") {
+            value += "\\\\"
+            // skip next char too
+            i++
+            if (i < s.length) value += s[i]
+          } else {
+            value += s[i]
+          }
+          i++
+        }
+        result += value + '"'
+        i++ // skip closing quote
+      } else {
+        result += s[i]
+        i++
+      }
+    }
+
+    // Replace Python keywords
+    result = result
+      .replace(/\bNone\b/g, "null")
+      .replace(/\bTrue\b/g, "true")
+      .replace(/\bFalse\b/g, "false")
+
+    const parsed = JSON.parse(result)
+    if (Array.isArray(parsed)) {
+      return parsed.filter(
+        (item: RawProject | null) => item !== null && item !== undefined
+      )
+    }
+    return []
+  } catch (err) {
+    console.error("[v0] parsePythonList failed:", err, "raw length:", raw.length)
+    return []
+  }
+}
+
+/**
  * Extract all projects from every profile in the JSON array,
  * flattening them into a single list with the owner's name attached.
+ * Handles projects as either a JSON array or a Python-style string.
  */
 export function extractAllProjects(profiles: LinkedInProfile[]): Project[] {
   const projects: Project[] = []
   for (const profile of profiles) {
-    if (!profile.projects || profile.projects.length === 0) continue
-    for (const p of profile.projects) {
+    if (!profile.projects) continue
+
+    let projectList: RawProject[]
+
+    if (typeof profile.projects === "string") {
+      // Projects field is a Python-style string, parse it
+      projectList = parsePythonList(profile.projects)
+    } else if (Array.isArray(profile.projects)) {
+      projectList = profile.projects.filter(
+        (p): p is RawProject => p !== null && p !== undefined
+      )
+    } else {
+      continue
+    }
+
+    if (projectList.length === 0) continue
+
+    for (const p of projectList) {
+      if (!p || !p.title) continue
       projects.push({
         name: p.title,
         description: p.description ?? "",
         profileName: profile.name,
-        profileId: profile.id,
+        profileId: profile.id ?? profile.name,
         startDate: p.start_date,
       })
     }
   }
   return projects
 }
+
+/* ------------------------------------------------------------------ */
+/*  Shared helpers                                                     */
+/* ------------------------------------------------------------------ */
 
 /**
  * Tokenize text into lowercase words, removing punctuation and stop words.
@@ -74,144 +166,102 @@ function tokenize(text: string): string[] {
 }
 
 /**
- * Compute TF (term frequency) for a list of tokens.
+ * Find shared meaningful keywords between essay and project (for display).
  */
-function computeTF(tokens: string[]): Map<string, number> {
-  const tf = new Map<string, number>()
-  for (const token of tokens) {
-    tf.set(token, (tf.get(token) || 0) + 1)
-  }
-  const total = tokens.length
-  for (const [key, val] of tf) {
-    tf.set(key, val / total)
-  }
-  return tf
-}
+function findSharedKeywords(
+  essayText: string,
+  projectText: string
+): string[] {
+  const essayTokens = new Set(tokenize(essayText))
+  const projectTokens = tokenize(projectText)
 
-/**
- * Compute IDF (inverse document frequency) across all documents.
- */
-function computeIDF(documents: string[][]): Map<string, number> {
-  const idf = new Map<string, number>()
-  const n = documents.length
-
-  for (const doc of documents) {
-    const uniqueTokens = new Set(doc)
-    for (const token of uniqueTokens) {
-      idf.set(token, (idf.get(token) || 0) + 1)
+  // Count project token frequency for weighting
+  const freq = new Map<string, number>()
+  for (const t of projectTokens) {
+    if (essayTokens.has(t)) {
+      freq.set(t, (freq.get(t) || 0) + 1)
     }
   }
 
-  for (const [key, val] of idf) {
-    idf.set(key, Math.log((n + 1) / (val + 1)) + 1)
-  }
-
-  return idf
+  return Array.from(freq.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([word]) => word)
 }
 
-/**
- * Compute cosine similarity between two TF-IDF vectors.
- */
-function cosineSimilarity(
-  vecA: Map<string, number>,
-  vecB: Map<string, number>
-): number {
-  let dotProduct = 0
+/* ------------------------------------------------------------------ */
+/*  Cosine similarity on OpenAI embeddings                             */
+/* ------------------------------------------------------------------ */
+
+function cosineSim(a: number[], b: number[]): number {
+  let dot = 0
   let normA = 0
   let normB = 0
-
-  for (const [key, val] of vecA) {
-    normA += val * val
-    if (vecB.has(key)) {
-      dotProduct += val * vecB.get(key)!
-    }
+  for (let i = 0; i < a.length; i++) {
+    dot += a[i] * b[i]
+    normA += a[i] * a[i]
+    normB += b[i] * b[i]
   }
-
-  for (const [, val] of vecB) {
-    normB += val * val
-  }
-
   if (normA === 0 || normB === 0) return 0
-  return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB))
+  return dot / (Math.sqrt(normA) * Math.sqrt(normB))
 }
 
 /**
- * Find the top keywords contributing to the match.
+ * Fetch embeddings from our /api/embed route.
  */
-function findMatchedKeywords(
-  essayTokens: string[],
-  projectTokens: string[],
-  idf: Map<string, number>
-): string[] {
-  const essaySet = new Set(essayTokens)
-  const projectSet = new Set(projectTokens)
-  const overlapping: { word: string; weight: number }[] = []
+async function getEmbeddings(texts: string[]): Promise<number[][]> {
+  const res = await fetch("/api/embed", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ texts }),
+  })
 
-  for (const word of essaySet) {
-    if (projectSet.has(word)) {
-      overlapping.push({ word, weight: idf.get(word) || 1 })
-    }
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}))
+    throw new Error(
+      (err as { error?: string }).error || `Embedding request failed (${res.status})`
+    )
   }
 
-  return overlapping
-    .sort((a, b) => b.weight - a.weight)
-    .slice(0, 8)
-    .map((o) => o.word)
+  const data = (await res.json()) as { embeddings: number[][] }
+  return data.embeddings
 }
 
 /**
- * Match essay text against a flat list of projects.
- * Returns the top-k matching projects sorted by relevance.
+ * Match essay text against projects using OpenAI embeddings.
+ * Calls the /api/embed route, computes cosine similarity,
+ * and returns the top-k results.
  */
-export function matchProjects(
+export async function matchProjectsWithEmbeddings(
   essayText: string,
   projects: Project[],
   topK: number = 3
-): MatchedProject[] {
-  const essayTokens = tokenize(essayText)
+): Promise<MatchedProject[]> {
+  if (projects.length === 0 || !essayText.trim()) return []
 
-  if (essayTokens.length === 0) {
-    return []
-  }
-
-  const projectTokensList = projects.map((p) =>
-    tokenize(`${p.name} ${p.description}`)
+  // Build text representations for each project
+  const projectTexts = projects.map(
+    (p) => `${p.name}. ${p.description}`.trim()
   )
 
-  // Build corpus: essay + all project descriptions
-  const allDocuments = [essayTokens, ...projectTokensList]
-  const idf = computeIDF(allDocuments)
+  // Get all embeddings in a single request: [essay, ...projects]
+  const allTexts = [essayText, ...projectTexts]
+  const embeddings = await getEmbeddings(allTexts)
 
-  // Compute TF-IDF for essay
-  const essayTF = computeTF(essayTokens)
-  const essayTFIDF = new Map<string, number>()
-  for (const [key, val] of essayTF) {
-    essayTFIDF.set(key, val * (idf.get(key) || 1))
-  }
+  const essayEmbedding = embeddings[0]
+  const projectEmbeddings = embeddings.slice(1)
 
-  // Compute TF-IDF for each project and calculate similarity
-  const results: MatchedProject[] = projects.map((project, idx) => {
-    const projTF = computeTF(projectTokensList[idx])
-    const projTFIDF = new Map<string, number>()
-    for (const [key, val] of projTF) {
-      projTFIDF.set(key, val * (idf.get(key) || 1))
-    }
-
-    const score = cosineSimilarity(essayTFIDF, projTFIDF)
-    const matchedKeywords = findMatchedKeywords(
-      essayTokens,
-      projectTokensList[idx],
-      idf
+  // Score every project
+  const scored = projects.map((project, idx) => {
+    const score = cosineSim(essayEmbedding, projectEmbeddings[idx])
+    const keywords = findSharedKeywords(
+      essayText,
+      `${project.name} ${project.description}`
     )
-
-    return {
-      ...project,
-      score,
-      matchedKeywords,
-    }
+    return { ...project, score, matchedKeywords: keywords }
   })
 
-  return results
+  return scored
     .sort((a, b) => b.score - a.score)
     .slice(0, topK)
     .filter((r) => r.score > 0)

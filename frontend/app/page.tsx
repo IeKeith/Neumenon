@@ -4,13 +4,13 @@ import { useState, useCallback } from "react"
 import { EssayUploader } from "@/components/essay-uploader"
 import { ResultsPanel } from "@/components/results-panel"
 import {
-  matchProjects,
+  matchProjectsWithEmbeddings,
   extractAllProjects,
   type MatchedProject,
   type Project,
   type LinkedInProfile,
 } from "@/lib/matcher"
-import { Loader2, FileSearch, SlidersHorizontal } from "lucide-react"
+import { Loader2, FileSearch, SlidersHorizontal, AlertCircle } from "lucide-react"
 import { Slider } from "@/components/ui/slider"
 
 export default function Home() {
@@ -22,25 +22,55 @@ export default function Home() {
   const [essayText, setEssayText] = useState<string | null>(null)
   const [essayFileName, setEssayFileName] = useState<string | null>(null)
   const [allProjects, setAllProjects] = useState<Project[]>([])
+  const [error, setError] = useState<string | null>(null)
+
+  // Cache embeddings so top-K slider doesn't re-call OpenAI
+  const [cachedScored, setCachedScored] = useState<MatchedProject[]>([])
 
   const runMatch = useCallback(
     async (text: string, k: number, projects?: Project[]) => {
       setIsProcessing(true)
-      await new Promise((r) => setTimeout(r, 400))
+      setError(null)
 
       try {
         let projectList = projects
         if (!projectList || projectList.length === 0) {
           const res = await fetch("/linkedinprofile.json")
-          const profiles: LinkedInProfile[] = await res.json()
+          const jsonText = await res.text()
+          // Support both JSON array and JSONL (newline-delimited JSON) formats
+          let profiles: LinkedInProfile[]
+          const trimmed = jsonText.trim()
+          if (trimmed.startsWith("[")) {
+            profiles = JSON.parse(trimmed)
+          } else {
+            profiles = trimmed
+              .split("\n")
+              .filter((line) => line.trim().length > 0)
+              .map((line) => JSON.parse(line))
+          }
           projectList = extractAllProjects(profiles)
+          console.log("[v0] Parsed profiles:", profiles.length, "Extracted projects:", projectList.length)
+          projectList.forEach((p, i) =>
+            console.log(`[v0] Project ${i}: "${p.name}" by ${p.profileName} (desc length: ${p.description.length})`)
+          )
           setAllProjects(projectList)
           setTotalProfiles(profiles.length)
           setTotalProjects(projectList.length)
         }
-        const matched = matchProjects(text, projectList, k)
-        setResults(matched)
-      } catch {
+
+        // Call OpenAI embeddings and compute similarity
+        const matched = await matchProjectsWithEmbeddings(
+          text,
+          projectList,
+          // Get all scored results so we can re-slice for top-K changes
+          projectList.length
+        )
+        setCachedScored(matched)
+        setResults(matched.slice(0, k))
+      } catch (err) {
+        const message =
+          err instanceof Error ? err.message : "An unexpected error occurred"
+        setError(message)
         setResults([])
       } finally {
         setIsProcessing(false)
@@ -53,6 +83,7 @@ export default function Home() {
     (text: string, fileName: string) => {
       setEssayText(text)
       setEssayFileName(fileName)
+      setCachedScored([])
       runMatch(text, topK)
     },
     [runMatch, topK]
@@ -62,11 +93,15 @@ export default function Home() {
     (value: number[]) => {
       const newK = value[0]
       setTopK(newK)
-      if (essayText) {
+
+      // If we have cached scores, just re-slice — no new API call
+      if (cachedScored.length > 0) {
+        setResults(cachedScored.slice(0, newK))
+      } else if (essayText) {
         runMatch(essayText, newK, allProjects)
       }
     },
-    [essayText, runMatch, allProjects]
+    [essayText, runMatch, allProjects, cachedScored]
   )
 
   return (
@@ -82,7 +117,7 @@ export default function Home() {
               Essay Project Matcher
             </h1>
             <p className="text-xs text-muted-foreground">
-              Match your essay against LinkedIn profile projects
+              Semantic matching powered by OpenAI embeddings
             </p>
           </div>
         </div>
@@ -96,7 +131,8 @@ export default function Home() {
               Upload Essay
             </h2>
             <p className="text-xs text-muted-foreground mt-0.5">
-              Upload a .txt file to find matching projects across all profiles
+              Upload a .txt file to find semantically similar projects across
+              all profiles
             </p>
           </div>
           <EssayUploader
@@ -133,18 +169,31 @@ export default function Home() {
           </section>
         )}
 
+        {/* Error */}
+        {error && (
+          <div className="flex items-start gap-3 rounded-xl border border-destructive/30 bg-destructive/5 p-4">
+            <AlertCircle className="h-5 w-5 text-destructive shrink-0 mt-0.5" />
+            <div>
+              <p className="text-sm font-medium text-destructive">
+                Matching failed
+              </p>
+              <p className="text-xs text-muted-foreground mt-1">{error}</p>
+            </div>
+          </div>
+        )}
+
         {/* Loading */}
         {isProcessing && (
           <div className="flex items-center justify-center gap-3 py-12">
             <Loader2 className="h-5 w-5 animate-spin text-primary" />
             <span className="text-sm text-muted-foreground">
-              Analyzing your essay against {totalProjects || "all"} projects...
+              Generating embeddings for {totalProjects || "all"} projects...
             </span>
           </div>
         )}
 
         {/* Results */}
-        {!isProcessing && results !== null && (
+        {!isProcessing && results !== null && !error && (
           <section>
             <ResultsPanel
               results={results}
