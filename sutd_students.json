@@ -86,5 +86,37 @@
     {
         "name": "Addison Chew Jun Wei",
         "raw_info": "I'm unable to access LinkedIn search results right now. Please try searching for \"Addison Chew Jun Wei SUTD\" directly on LinkedIn. If you find the profile, you can share the link with me, and I'll help extract the current role and education details."
+    },
+    {
+        "name": "Jeremia Juanputra",
+        "raw_info": "I am currently unable to retrieve LinkedIn search results. You can try searching for \"Jeremia Juanputra SUTD\" directly on LinkedIn. If you locate the profile, please share the link with me, and I'll assist in extracting the relevant current role and education information."
+    },
+    {
+        "name": "Shuai Shuai",
+        "error": "Failed to get tools from MCP server: "
+    },
+    {
+        "name": "Wu Tianyu",
+        "error": "Failed to get tools from MCP server: "
+    },
+    {
+        "name": "Chiang Aiting Faye",
+        "error": "Failed to get tools from MCP server: "
+    },
+    {
+        "name": "Woo Jiale Gerald",
+        "error": "Failed to get tools from MCP server: "
+    },
+    {
+        "name": "Chia Yi Qing Eugene",
+        "raw_info": "I'm currently unable to access LinkedIn search results. Please try searching directly on LinkedIn using \"Chia Yi Qing Eugene SUTD.\" If you find the profile, you can share the link with me, and I'll help you extract the current role and education details."
+    },
+    {
+        "name": "Tan Jin Yan",
+        "raw_info": "I am unable to retrieve LinkedIn search results at the moment. Please consider searching for \"Tan Jin Yan SUTD\" directly on LinkedIn. If you find the profile, feel free to share the link with me, and I'll assist in extracting details about their current role and education."
+    },
+    {
+        "name": "Dong Yuanjia",
+        "raw_info": "I am unable to access LinkedIn search results right now. Please try searching for \"Dong Yuanjia SUTD\" directly on LinkedIn. If you find the profile, you can share the link with me, and I will help extract the current role and education information."
     }
 ]

@@ -10,8 +10,9 @@ from google.genai import types
 from dotenv import load_dotenv
 
 # 1. Configuration
+load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-BRIGHTDATA_TOKEN = "e47c0c51-175e-4f9a-90ca-974cc3a60f21"
+BRIGHTDATA_TOKEN = os.getenv("BRIGHTDATA_TOKEN")
 # We include both groups: 'advanced_scraping' to read the SUTD site, 
 # and 'social' to scrape LinkedIn profiles.
 BRIGHTDATA_URL = f"https://mcp.brightdata.com/mcp?token={BRIGHTDATA_TOKEN}&groups=advanced_scraping,social"

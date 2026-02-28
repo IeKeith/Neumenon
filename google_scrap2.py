@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 # 1. Configuration
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-BRIGHTDATA_TOKEN = "e47c0c51-175e-4f9a-90ca-974cc3a60f21"
+BRIGHTDATA_TOKEN = os.getenv("BRIGHTDATA_TOKEN")
 BRIGHTDATA_URL = f"https://mcp.brightdata.com/mcp?token={BRIGHTDATA_TOKEN}&groups=advanced_scraping,social"
 
 student_names = [
