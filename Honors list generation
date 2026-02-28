@@ -4,14 +4,12 @@ import importlib
 import csv
 import re
 
-
 # ---------------------------
 # Auto-install required packages
 # ---------------------------
 def install_and_import(package_name, import_name=None):
     if import_name is None:
         import_name = package_name
-
     try:
         importlib.import_module(import_name)
     except ImportError:
@@ -20,64 +18,85 @@ def install_and_import(package_name, import_name=None):
     finally:
         globals()[import_name] = importlib.import_module(import_name)
 
-
 install_and_import("requests")
 install_and_import("beautifulsoup4", "bs4")
 
 from bs4 import BeautifulSoup
 import requests
 
-
 # ---------------------------
 # Helper Functions
 # ---------------------------
 def is_probable_name(text):
+    """
+    Strictly filters out award titles, navigation, and UI elements.
+    """
     if not text:
         return False
 
     text = text.strip()
 
-    if len(text) < 3:
+    # 1. Length check (Names are usually 2-4 words, rarely over 50 chars)
+    if len(text) < 3 or len(text) > 45:
         return False
 
+    # 2. Digit check (Names don't have numbers like "2023" or "2024")
     if re.search(r"\d", text):
         return False
 
-    skip_words = ["Year", "Senior", "Sophomore", "Junior"]
-    if any(word.lower() in text.lower() for word in skip_words):
+    # 3. NOISE FILTER: Specifically target "Keppel", "Award", and Page Headers
+    # If any of these words are in the string, it's likely NOT a student name.
+    noise_keywords = [
+        "Award", "Scholarship", "Keppel", "Step-it-up", "Health", 
+        "Service", "Leadership", "Excellence", "Prize", "Grant",
+        "Year", "Sophomore", "Junior", "Senior", "Freshmore",
+        "Pillar", "Contact", "Sitemap", "About", "Home", "Campus",
+        "Admissions", "Research", "Student Life", "Back to", "Top",
+        "Terms", "Privacy", "Feedback", "SUTD", "Honours List"
+    ]
+    
+    if any(word.lower() in text.lower() for word in noise_keywords):
         return False
 
+    # 4. Character check (Only letters and common name punctuation)
     return bool(re.match(r"^[A-Za-z ,.'-]+$", text))
 
-
 def scrape_honours_page(url):
-    response = requests.get(url, timeout=15)
-    response.raise_for_status()
+    """
+    Targets only the list items within the main content body.
+    """
+    try:
+        response = requests.get(url, timeout=15)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
 
-    soup = BeautifulSoup(response.text, "html.parser")
+        names = []
+        
+        # SUTD main content usually lives in 'col-md-9'
+        main_content = soup.find("div", class_="col-md-9")
+        if not main_content:
+            main_content = soup.find("article") or soup
 
-    names = []
-    for li in soup.find_all("li"):
-        text = li.get_text(strip=True)
-        if is_probable_name(text):
-            names.append(text)
+        # We look for <li> tags specifically to find name lists
+        for li in main_content.find_all("li"):
+            # Ensure we aren't pulling menu links from the sidebar/footer if they bled in
+            if li.find('a', href=True) and len(li.get_text()) > 20:
+                # If it's a long link, it's probably a navigation item, not a name
+                continue
+                
+            text = li.get_text(strip=True)
+            if is_probable_name(text):
+                names.append(text)
 
-    return names
-
-
-def save_to_csv(names, filename):
-    with open(filename, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["Name"])
-        for name in names:
-            writer.writerow([name])
-
+        return names
+    except Exception as e:
+        print(f"Error scraping {url}: {e}")
+        return []
 
 # ---------------------------
 # Main Execution
 # ---------------------------
 if __name__ == "__main__":
-
     urls = [
         "https://www.sutd.edu.sg/campus-life/student-life/student-awards/honours-list/esd/",
         "https://www.sutd.edu.sg/campus-life/student-life/student-awards/honours-list/asd/",
@@ -86,23 +105,35 @@ if __name__ == "__main__":
         "https://www.sutd.edu.sg/campus-life/student-life/student-awards/honours-list/epd/",
     ]
 
-    print("Starting SUTD honours list scrape...\n")
-
     all_names = []
 
+ 
+    
     for url in urls:
-        print(f"Scraping: {url}")
+        pillar = url.rstrip('/').split('/')[-1].upper()
         names = scrape_honours_page(url)
-        print(f"  Found {len(names)} names")
         all_names.extend(names)
 
-    all_names = list(dict.fromkeys(all_names))
+    # Remove duplicates while maintaining the list order
+    unique_names = list(dict.fromkeys(all_names))
 
-    print(f"\nTotal unique names found: {len(all_names)}\n")
+    # This prints just the student names to the console
+# Number of initial lines to skip (like headers, section titles, etc.)
+skip_count = 4  # adjust this number as needed
 
-    for name in all_names:
-        print(name)
+# Remove duplicates while maintaining order
+unique_names = list(dict.fromkeys(all_names))
 
-    save_to_csv(all_names, "sutd_all_honours.csv")
+# Skip the first `skip_count` items
+filtered_names = unique_names[skip_count:]
 
-    print("\nSaved to sutd_all_honours.csv")
+# Print to console
+for name in filtered_names:
+    print(name)
+
+# Save to CSV
+with open("sutd_honours_cleaned1.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(["Student Name"])
+    for name in filtered_names:
+        writer.writerow([name])
