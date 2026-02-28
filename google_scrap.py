@@ -7,9 +7,10 @@ from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset
 from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
 from google.genai import types
+from dotenv import load_dotenv
 
-# Credentials
-os.environ["OPENAI_API_KEY"] = "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"
+# 1. Configuration
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 BRIGHTDATA_TOKEN = "e47c0c51-175e-4f9a-90ca-974cc3a60f21"
 # We include both groups: 'advanced_scraping' to read the SUTD site, 
 # and 'social' to scrape LinkedIn profiles.
