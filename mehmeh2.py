@@ -2,7 +2,7 @@ import requests
 import json
 
 API_KEY = "180a2d70-1698-4f30-8d3f-b4fb20f949a0"
-SNAPSHOT_ID = "sd_mm5y9embc18bd0pdj"  # e.g. "s_maof15r7v28n4gc95"
+SNAPSHOT_ID = "sd_mm60wbrm20ublz6zql"  # e.g. "s_maof15r7v28n4gc95"
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",

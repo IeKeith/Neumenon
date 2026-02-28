@@ -1,0 +1,779 @@
+[
+    {
+        "user_name": "Susiwati Ta",
+        "title": "Undergraduate Research Opportunity Programme - Urban Planning in Solo, Indonesia (City Form Lab)",
+        "start_date": "Sep 2013",
+        "description": "Conducted surveys of various businesses in Solo, Indonesia and analysed the results together with a team of 7 other members on location patterns of semi-formal commerce. Submitted various maps that were digitized using QGIS to assist in analysis of the data collected.",
+        "text_for_embedding": "User: Susiwati Ta. Project: Undergraduate Research Opportunity Programme - Urban Planning in Solo, Indonesia (City Form Lab). Conducted surveys of various businesses in Solo, Indonesia and analysed the results together with a team of 7 other members on location patterns of semi-formal commerce. Submitted various maps that were digitized using QGIS to assist in analysis of the data collected."
+    },
+    {
+        "user_name": "Zhou Zhi",
+        "title": "Air Transportation Visualization",
+        "start_date": "Dec 2018",
+        "description": "This project aims to provide a holistic view of the volume of air traffic around various airports in the world. By utilizing data visualization tool such as Cesium.js, we aim to provide an easy and visual way to indicate traffic density as well as provide insights to potential aviation routes/plans.",
+        "text_for_embedding": "User: Zhou Zhi. Project: Air Transportation Visualization. This project aims to provide a holistic view of the volume of air traffic around various airports in the world. By utilizing data visualization tool such as Cesium.js, we aim to provide an easy and visual way to indicate traffic density as well as provide insights to potential aviation routes/plans."
+    },
+    {
+        "user_name": "Zhou Zhi",
+        "title": "Hotel Demand Forecast",
+        "start_date": "Aug 2018",
+        "description": "Hotels fall under two categories, gazetted and non-gazetted hotels. Currently, STB only has a forecast model for visitors staying in gazetted hotels. Our aim is to find the international and domestic visitor occupancy of both gazetted and non-gazetted hotels to forecast \u2018overall room nights occupied\u2019. The first step in our methodology was to consolidate the data provided by STB using SQLite. Then, we were able to determine the additional data that we had to source out for our forecast models which we acquired by web scraping Airbnb data using python. Following that, we developed a prediction model to predict the ratio of domestic to international visitors in non-gazetted hotels. After collating STB\u2019s data and the data that we sourced, we built our individual forecast models on R and implemented this code into our final interactive JavaScript visualisations. By doing so, we can provide STB with a detailed breakdown of overall hotel room demand into the resulting four categories. This will result in detailed and accurate forecasting; which can be used to make precise and effective business decisions.",
+        "text_for_embedding": "User: Zhou Zhi. Project: Hotel Demand Forecast. Hotels fall under two categories, gazetted and non-gazetted hotels. Currently, STB only has a forecast model for visitors staying in gazetted hotels. Our aim is to find the international and domestic visitor occupancy of both gazetted and non-gazetted hotels to forecast \u2018overall room nights occupied\u2019. The first step in our methodology was to consolidate the data provided by STB using SQLite. Then, we were able to determine the additional data that we had to source out for our forecast models which we acquired by web scraping Airbnb data using python. Following that, we developed a prediction model to predict the ratio of domestic to international visitors in non-gazetted hotels. After collating STB\u2019s data and the data that we sourced, we built our individual forecast models on R and implemented this code into our final interactive JavaScript visualisations. By doing so, we can provide STB with a detailed breakdown of overall hotel room demand into the resulting four categories. This will result in detailed and accurate forecasting; which can be used to make precise and effective business decisions."
+    },
+    {
+        "user_name": "Zhou Zhi",
+        "title": "Visual Design of the Comprehensive Intelligent Large screen",
+        "start_date": "May 2018",
+        "description": "In this project, our group developed a large-screen visualisation for BoB under the mentorship of CADCG. The visualisation, slated for use in Bank of Beijing\u2019s Nanjing branch, displays the volumes of data collected by the bank in an intuitive manner to enable the discovery of insights from an otherwise impenetrable screen of data. This large-screen visualisation in the monitoring center of their Nanjing branch is a foray into the relatively new field of big data analytics and will be used by bank leaders and business analysts to observe trends in bank and user data.",
+        "text_for_embedding": "User: Zhou Zhi. Project: Visual Design of the Comprehensive Intelligent Large screen. In this project, our group developed a large-screen visualisation for BoB under the mentorship of CADCG. The visualisation, slated for use in Bank of Beijing\u2019s Nanjing branch, displays the volumes of data collected by the bank in an intuitive manner to enable the discovery of insights from an otherwise impenetrable screen of data. This large-screen visualisation in the monitoring center of their Nanjing branch is a foray into the relatively new field of big data analytics and will be used by bank leaders and business analysts to observe trends in bank and user data."
+    },
+    {
+        "user_name": "Zhou Zhi",
+        "title": "Construct A Physical Model of Traffic Flows",
+        "start_date": "Jan 2017",
+        "description": "Developed an application that stimulates the stoppage of up to 6 vehicles on road due to the sudden appearance of wild animals using Qt engine and Box2D. Tested the feasibility of modeling real-world situation using virtual environment setting.",
+        "text_for_embedding": "User: Zhou Zhi. Project: Construct A Physical Model of Traffic Flows. Developed an application that stimulates the stoppage of up to 6 vehicles on road due to the sudden appearance of wild animals using Qt engine and Box2D. Tested the feasibility of modeling real-world situation using virtual environment setting."
+    },
+    {
+        "user_name": "Aditya Kumar",
+        "title": "Product Design Studio - EV interior",
+        "start_date": "Jan 2023",
+        "description": "In partnership with the EV team at the Singapore University of Technology and Design (SUTD), I had the privilege of collaborating on the development of a functional and visually appealing interior for an electric vehicle (EV). Together, we focused on creating an interior that prioritized ease of entry and exit, while integrating advanced technology and aesthetics seamlessly. Our joint efforts resulted in the design and implementation of a user-friendly steering wheel, dashboard, and back screens, enhancing both functionality and overall driving experience. It was an enriching experience working with the talented team at SUTD, and I am proud of the outcome we achieved together.",
+        "text_for_embedding": "User: Aditya Kumar. Project: Product Design Studio - EV interior. In partnership with the EV team at the Singapore University of Technology and Design (SUTD), I had the privilege of collaborating on the development of a functional and visually appealing interior for an electric vehicle (EV). Together, we focused on creating an interior that prioritized ease of entry and exit, while integrating advanced technology and aesthetics seamlessly. Our joint efforts resulted in the design and implementation of a user-friendly steering wheel, dashboard, and back screens, enhancing both functionality and overall driving experience. It was an enriching experience working with the talented team at SUTD, and I am proud of the outcome we achieved together."
+    },
+    {
+        "user_name": "Aditya Kumar",
+        "title": "AI Applications in Design - Finding design",
+        "start_date": "Feb 2023",
+        "description": "The goal of this project was to identify design flaws in the Nothing Phone One through a data-driven approach. We leveraged web scraping, APIs (such as Reddit and YouTube), and machine learning tools like sentiment analysis and Zero Shot classification. By integrating ChatGPT using the OpenAI API, we obtained valuable insights and compared the phone's design to its competitors, ultimately providing meaningful solutions.",
+        "text_for_embedding": "User: Aditya Kumar. Project: AI Applications in Design - Finding design. The goal of this project was to identify design flaws in the Nothing Phone One through a data-driven approach. We leveraged web scraping, APIs (such as Reddit and YouTube), and machine learning tools like sentiment analysis and Zero Shot classification. By integrating ChatGPT using the OpenAI API, we obtained valuable insights and compared the phone's design to its competitors, ultimately providing meaningful solutions."
+    },
+    {
+        "user_name": "Aditya Kumar",
+        "title": "03.007 Design Thinking Project - Xplanade",
+        "start_date": "Jan 2022",
+        "description": "Xplanade is a project that proposes the installation of a geodesic dome near Changi City Point. With a focus on post-COVID social interaction, the dome offers shelter during peak hours and creates an inclusive space for the community to reconnect, fostering engagement and well-being.https://jordanlimzx.wordpress.com/2022/04/22/dti-part-4/",
+        "text_for_embedding": "User: Aditya Kumar. Project: 03.007 Design Thinking Project - Xplanade. Xplanade is a project that proposes the installation of a geodesic dome near Changi City Point. With a focus on post-COVID social interaction, the dome offers shelter during peak hours and creates an inclusive space for the community to reconnect, fostering engagement and well-being.https://jordanlimzx.wordpress.com/2022/04/22/dti-part-4/"
+    },
+    {
+        "user_name": "Anna Rica Sawit",
+        "title": "ALIVE Project (Tan Tock Seng Hospital Project Collaboration) \u2013 Endless Runner Game",
+        "start_date": "Sep 2021",
+        "description": "This project is a collaboration with the Singapore Tan Tock Seng Hospital, where I worked in a team on the design and development of a game. The goal was to create a combined game that helps educate adults about bacteria, viruses and how to protect oneself against them. The minigame I developed was an endless runner game, which involves shooting stationary bacteria and virus enemies and a wide selection of game characters.",
+        "text_for_embedding": "User: Anna Rica Sawit. Project: ALIVE Project (Tan Tock Seng Hospital Project Collaboration) \u2013 Endless Runner Game. This project is a collaboration with the Singapore Tan Tock Seng Hospital, where I worked in a team on the design and development of a game. The goal was to create a combined game that helps educate adults about bacteria, viruses and how to protect oneself against them. The minigame I developed was an endless runner game, which involves shooting stationary bacteria and virus enemies and a wide selection of game characters."
+    },
+    {
+        "user_name": "Anna Rica Sawit",
+        "title": "Game User Experience Research \u2013 Rhythm Warrior: The Lost Jukebox",
+        "start_date": "Jan 2022",
+        "description": "For this project, research was carried out \u2013 specifically on views about adventure and endless runner games among teenagers and collating insights gathered based on their responses \u2013 and documented on a set of PowerPoint slides. Additionally, I took inspiration from a past game idea (a stage-based runner game) and created and designed an elaborate Game Design Document, with user experience insights included. This project was done as part of another school assignment.",
+        "text_for_embedding": "User: Anna Rica Sawit. Project: Game User Experience Research \u2013 Rhythm Warrior: The Lost Jukebox. For this project, research was carried out \u2013 specifically on views about adventure and endless runner games among teenagers and collating insights gathered based on their responses \u2013 and documented on a set of PowerPoint slides. Additionally, I took inspiration from a past game idea (a stage-based runner game) and created and designed an elaborate Game Design Document, with user experience insights included. This project was done as part of another school assignment."
+    },
+    {
+        "user_name": "Anna Rica Sawit",
+        "title": "Pitch Document: Gameplay \u2013 Crossy Road & Om Nom: Run",
+        "start_date": "Apr 2021",
+        "description": "In this project assignment, I carried out research on two existing mobile games as part of a school assignment. Then, I proceeded to document the research on Microsoft PowerPoint and also revamped one of the games (Om Nom: Run) in the form of a \u2018paper prototype\u2019 (online, using Marvel App) as well.",
+        "text_for_embedding": "User: Anna Rica Sawit. Project: Pitch Document: Gameplay \u2013 Crossy Road & Om Nom: Run. In this project assignment, I carried out research on two existing mobile games as part of a school assignment. Then, I proceeded to document the research on Microsoft PowerPoint and also revamped one of the games (Om Nom: Run) in the form of a \u2018paper prototype\u2019 (online, using Marvel App) as well."
+    },
+    {
+        "user_name": "Ray Lai",
+        "title": "agentic product researcher",
+        "start_date": "Apr 2025",
+        "description": "This is an AI-powered product research tool built for a school project, exploring the use of emerging technologies like Retrieval-Augmented Generation (RAG) and AI Agents.The core idea is simple:You input an image of a product, and the tool runs a pipeline that collects reviews and feedback for that product and its competitors. The collected data is then processed into meaningful, actionable insights.Agents are employed to validate and extract relevant information from official product manuals, which are embedded into a vector database. These manuals, combined with user feedback, are used in a RAG system to generate targeted design improvement suggestions \u2014 for example, specific changes like \"Increase maximum table height from 70 cm to 76 cm.\"The code was designed to execute end-to-end from app.py. While it currently functions as a proof-of-concept prototype, some bugs remain, and full flawless execution may require additional patches.",
+        "text_for_embedding": "User: Ray Lai. Project: agentic product researcher. This is an AI-powered product research tool built for a school project, exploring the use of emerging technologies like Retrieval-Augmented Generation (RAG) and AI Agents.The core idea is simple:You input an image of a product, and the tool runs a pipeline that collects reviews and feedback for that product and its competitors. The collected data is then processed into meaningful, actionable insights.Agents are employed to validate and extract relevant information from official product manuals, which are embedded into a vector database. These manuals, combined with user feedback, are used in a RAG system to generate targeted design improvement suggestions \u2014 for example, specific changes like \"Increase maximum table height from 70 cm to 76 cm.\"The code was designed to execute end-to-end from app.py. While it currently functions as a proof-of-concept prototype, some bugs remain, and full flawless execution may require additional patches."
+    },
+    {
+        "user_name": "Chang Su",
+        "title": "Final Year Capstone Project: QueueCraft - Digital Twin Framework Development for Home Team Operations with Home Team Science and Technology Agency (HTX)",
+        "start_date": "Sep 2023",
+        "description": "\u2022 Organized a kick-off meeting with our client, HTX, to collect their objectives on building a digital twin which simulates physical queuing processes in the immigration hall virtually for better monitoring and optimization.\u2022 In Computer Vision part contributed Person Re-Identification Method using Omni-Scale Network model through Python to recognize the same person across different cameras which facilitates queuing pattern detection.\u2022 In Simulation part contributed Discrete-Event Simulation model through Python to simulate the live customer queuing and counter service processes and output live-updated queue length, number of served customers, etc. for monitoring.\u2022 Connected contributed Computer Vision and Simulation models with other teammates\u2019 achievements to build the digital twin product, QueueCraft, which was later shown to HTX clients through presentation and poster showcase.",
+        "text_for_embedding": "User: Chang Su. Project: Final Year Capstone Project: QueueCraft - Digital Twin Framework Development for Home Team Operations with Home Team Science and Technology Agency (HTX). \u2022 Organized a kick-off meeting with our client, HTX, to collect their objectives on building a digital twin which simulates physical queuing processes in the immigration hall virtually for better monitoring and optimization.\u2022 In Computer Vision part contributed Person Re-Identification Method using Omni-Scale Network model through Python to recognize the same person across different cameras which facilitates queuing pattern detection.\u2022 In Simulation part contributed Discrete-Event Simulation model through Python to simulate the live customer queuing and counter service processes and output live-updated queue length, number of served customers, etc. for monitoring.\u2022 Connected contributed Computer Vision and Simulation models with other teammates\u2019 achievements to build the digital twin product, QueueCraft, which was later shown to HTX clients through presentation and poster showcase."
+    },
+    {
+        "user_name": "Chang Su",
+        "title": "Term Project: Advanced Topics in Stochastic Model - Use of Regenerative Simulation Method for Staffing Call Centers",
+        "start_date": "Sep 2023",
+        "description": "\u2022 Determined the regeneration epochs to conduct the regeneration cycles' simulation of the entire process of customers' arriving, call center agents' serving and customers' leaving in Python later.\u2022 Used Python programming language and a process-based simulation Python framework called SimPy to simulate the entire Call Center regeneration cycles' process.\u2022 Decided the expected minimum number of call center agents in steady-state and its confidence interval by meeting professor's constraints on probability to abandon customers and customer average wait time, so that the Call Center was staffed optimally and the project goal was met.(Since my project Python code and Report contain confidential information which may be used improperly by others, they will not be uploaded here and if you want to know more of my project details or want to see my project Python code or Report, please contact me.)",
+        "text_for_embedding": "User: Chang Su. Project: Term Project: Advanced Topics in Stochastic Model - Use of Regenerative Simulation Method for Staffing Call Centers. \u2022 Determined the regeneration epochs to conduct the regeneration cycles' simulation of the entire process of customers' arriving, call center agents' serving and customers' leaving in Python later.\u2022 Used Python programming language and a process-based simulation Python framework called SimPy to simulate the entire Call Center regeneration cycles' process.\u2022 Decided the expected minimum number of call center agents in steady-state and its confidence interval by meeting professor's constraints on probability to abandon customers and customer average wait time, so that the Call Center was staffed optimally and the project goal was met.(Since my project Python code and Report contain confidential information which may be used improperly by others, they will not be uploaded here and if you want to know more of my project details or want to see my project Python code or Report, please contact me.)"
+    },
+    {
+        "user_name": "Chang Su",
+        "title": "Term Project: Simulation Modelling and Analysis\u200b Project - Restaurant Simulation",
+        "start_date": "Jan 2023",
+        "description": "\u2022 Used draw.io to plot the entire simulation flow in the restaurant including Pre-Ordering Phase, Kitchen Phase and Eating Phase for better visualization of the entire restaurant flow and later use in JaamSim software.\u2022 Simulated the whole event graph plotted in draw.io in a dynamic way and calculated the average queueing time for customers using JaamSim software for getting insights of how the customer queuing time could be improved.\u2022 Used JaamSim and Excel plot to find out that increasing customer interarrival time, decreasing cooking time, decreasing eating time and decreasing cashier service time could reduce the customer queuing time, which met our target of optimizing the restaurant simulation.",
+        "text_for_embedding": "User: Chang Su. Project: Term Project: Simulation Modelling and Analysis\u200b Project - Restaurant Simulation. \u2022 Used draw.io to plot the entire simulation flow in the restaurant including Pre-Ordering Phase, Kitchen Phase and Eating Phase for better visualization of the entire restaurant flow and later use in JaamSim software.\u2022 Simulated the whole event graph plotted in draw.io in a dynamic way and calculated the average queueing time for customers using JaamSim software for getting insights of how the customer queuing time could be improved.\u2022 Used JaamSim and Excel plot to find out that increasing customer interarrival time, decreasing cooking time, decreasing eating time and decreasing cashier service time could reduce the customer queuing time, which met our target of optimizing the restaurant simulation."
+    },
+    {
+        "user_name": "Chang Su",
+        "title": "Term Project: Educational Game for Optimal Stocking Plan - Supermarket Mania",
+        "start_date": "May 2022",
+        "description": "\u2022 Used R Programming Language with packages including R Shiny to design an inventory game web app for players to optimize the product-selling profit after 7 simulated days.\u2022 Calculated accumulated profit, and every product's leftover and shortage quantities for each day and plotted these data as graphs to analyze players' performance in the entire ranking list.\u2022 Presented game functions by code and YouTube video to professors and classmates for letting them know the procedures and importance of our project.",
+        "text_for_embedding": "User: Chang Su. Project: Term Project: Educational Game for Optimal Stocking Plan - Supermarket Mania. \u2022 Used R Programming Language with packages including R Shiny to design an inventory game web app for players to optimize the product-selling profit after 7 simulated days.\u2022 Calculated accumulated profit, and every product's leftover and shortage quantities for each day and plotted these data as graphs to analyze players' performance in the entire ranking list.\u2022 Presented game functions by code and YouTube video to professors and classmates for letting them know the procedures and importance of our project."
+    },
+    {
+        "user_name": "Chang Su",
+        "title": "Data Analysis Term Project with Outside-school Company",
+        "start_date": "Jan 2022",
+        "description": "\u2022 Organized a kick-off meeting with our client, Patrick Dental Ceramic Arts Pte. Ltd., to collect database and their expectations.\u2022 Divided and analyzed the data given by client with SQL and visualized it with Tableau to show current company situations from different aspects including for example redo rates of different products.\u2022 Presented analysis results by poster and presentation to client for letting them know their company\u2019s current situations.",
+        "text_for_embedding": "User: Chang Su. Project: Data Analysis Term Project with Outside-school Company. \u2022 Organized a kick-off meeting with our client, Patrick Dental Ceramic Arts Pte. Ltd., to collect database and their expectations.\u2022 Divided and analyzed the data given by client with SQL and visualized it with Tableau to show current company situations from different aspects including for example redo rates of different products.\u2022 Presented analysis results by poster and presentation to client for letting them know their company\u2019s current situations."
+    },
+    {
+        "user_name": "Chang Su",
+        "title": "Team Project: Airport Congestion Delays in the ASEAN Region",
+        "start_date": "May 2021",
+        "description": "\u2022 Created machine learning models in python using SciKit-Learn Library to fit airport data in for training and testing.\u2022 Plotted variable importance bar chart to find out the significant factors which influence the model for each airport.\u2022 Compared the R^2 and adjusted R^2 values among different models to find out the best model for each airport.\u2022 Won the Best Poster Prize in SUTD\u2019s annual Learning Celebration Carnival 2021.Group's presentation (from 44:50 to 1:14:32) : https://www.youtube.com/watch?v=n1XtuwMUUzw",
+        "text_for_embedding": "User: Chang Su. Project: Team Project: Airport Congestion Delays in the ASEAN Region. \u2022 Created machine learning models in python using SciKit-Learn Library to fit airport data in for training and testing.\u2022 Plotted variable importance bar chart to find out the significant factors which influence the model for each airport.\u2022 Compared the R^2 and adjusted R^2 values among different models to find out the best model for each airport.\u2022 Won the Best Poster Prize in SUTD\u2019s annual Learning Celebration Carnival 2021.Group's presentation (from 44:50 to 1:14:32) : https://www.youtube.com/watch?v=n1XtuwMUUzw"
+    },
+    {
+        "user_name": "Chang Su",
+        "title": "Team Project: Design Thinking and Innovation: Troll-O Speed-O",
+        "start_date": "Jan 2021",
+        "description": "\u2022 Came up with an idea to improve the current tray-return shelves in hawker centers to have more space and be more comfortable for elder cleaners to use.\u2022 Created a trolley which has more space than current tray-return shelves and can also let diners sort the trays and utensils by themselves for elder cleaners.\u2022 Added components like hands-free braking system for the more comfortable usage of this trolley for elder cleaners.",
+        "text_for_embedding": "User: Chang Su. Project: Team Project: Design Thinking and Innovation: Troll-O Speed-O. \u2022 Came up with an idea to improve the current tray-return shelves in hawker centers to have more space and be more comfortable for elder cleaners to use.\u2022 Created a trolley which has more space than current tray-return shelves and can also let diners sort the trays and utensils by themselves for elder cleaners.\u2022 Added components like hands-free braking system for the more comfortable usage of this trolley for elder cleaners."
+    },
+    {
+        "user_name": "Dhyeya Anand",
+        "title": "6-DoF robotic arm with integrated vision",
+        "start_date": "Mar 2025",
+        "description": "Currently working on assembling a robotic arm to help assist with eating difficulties",
+        "text_for_embedding": "User: Dhyeya Anand. Project: 6-DoF robotic arm with integrated vision. Currently working on assembling a robotic arm to help assist with eating difficulties"
+    },
+    {
+        "user_name": "Dhyeya Anand",
+        "title": "Pen Plotter",
+        "start_date": "Oct 2022",
+        "description": "Developing a robot capable of reproducing any image found online, be it a drawing or a photograph.",
+        "text_for_embedding": "User: Dhyeya Anand. Project: Pen Plotter. Developing a robot capable of reproducing any image found online, be it a drawing or a photograph."
+    },
+    {
+        "user_name": "Dhyeya Anand",
+        "title": "Filastruder",
+        "start_date": "N/A",
+        "description": "Building a Filastruder system to recycle plastic into filament, ensuring stable melting without damaging internal electronics.",
+        "text_for_embedding": "User: Dhyeya Anand. Project: Filastruder. Building a Filastruder system to recycle plastic into filament, ensuring stable melting without damaging internal electronics."
+    },
+    {
+        "user_name": "Ayra Mohammed",
+        "title": "Visitor ship Forecasting for Mandai Wildlife Group (Data & Business Analytics Course)",
+        "start_date": "Jan 2025",
+        "description": "\u2022 Processed and analysed historical visitor data using Excel and Pandas, identifying key trends and patterns.\u2022 Built predictive models to forecast visitorship for the upcoming year, leveraging statistical techniques to enhance accuracy.\u2022 Designed interactive Power BI dashboards to visualize insights, enabling data-driven decision-making for stakeholder reporting.",
+        "text_for_embedding": "User: Ayra Mohammed. Project: Visitor ship Forecasting for Mandai Wildlife Group (Data & Business Analytics Course). \u2022 Processed and analysed historical visitor data using Excel and Pandas, identifying key trends and patterns.\u2022 Built predictive models to forecast visitorship for the upcoming year, leveraging statistical techniques to enhance accuracy.\u2022 Designed interactive Power BI dashboards to visualize insights, enabling data-driven decision-making for stakeholder reporting."
+    },
+    {
+        "user_name": "Ayra Mohammed",
+        "title": "Project Lumino for Design Thinking and Innovation",
+        "start_date": "Jan 2024",
+        "description": "\u2022 Designed a stress-relief space for students using light, innovative design, and technology, strategically placed at a high-traffic junction in SUTD.\u2022 Applied Design Thinking methodology to research, prototype, and refine concepts for an engaging and calming environment.\u2022 Gained hands-on experience in Arduino programming and wiring to create interactive elements within the installation.\u2022 Utilized CAD software, Figma, and Twinmotion for precise designs, interactive prototypes, and realistic 3D visualizations.\u2022 Led content creation to enhance user experience and effectively communicate the project\u2019s vision.",
+        "text_for_embedding": "User: Ayra Mohammed. Project: Project Lumino for Design Thinking and Innovation. \u2022 Designed a stress-relief space for students using light, innovative design, and technology, strategically placed at a high-traffic junction in SUTD.\u2022 Applied Design Thinking methodology to research, prototype, and refine concepts for an engaging and calming environment.\u2022 Gained hands-on experience in Arduino programming and wiring to create interactive elements within the installation.\u2022 Utilized CAD software, Figma, and Twinmotion for precise designs, interactive prototypes, and realistic 3D visualizations.\u2022 Led content creation to enhance user experience and effectively communicate the project\u2019s vision."
+    },
+    {
+        "user_name": "Shi Kai Chong",
+        "title": "Predictive Analytics of Choice of Car Safety Feature",
+        "start_date": "Aug 2016",
+        "description": "\u2022 Analysed data from over 10,000 instances of surveys regarding consumer preferences in car safety features.\u2022 Formulated models and implemented machine learning algorithms to predict actual consumer behavior.\u2022 Won first place in the school-level predictive analytics challenge by having the highest prediction accuracy amongst all teams.",
+        "text_for_embedding": "User: Shi Kai Chong. Project: Predictive Analytics of Choice of Car Safety Feature. \u2022 Analysed data from over 10,000 instances of surveys regarding consumer preferences in car safety features.\u2022 Formulated models and implemented machine learning algorithms to predict actual consumer behavior.\u2022 Won first place in the school-level predictive analytics challenge by having the highest prediction accuracy amongst all teams."
+    },
+    {
+        "user_name": "Shi Kai Chong",
+        "title": "Investigation of Similarity of Songs in Pop Culture via Network Analysis",
+        "start_date": "Mar 2015",
+        "description": "\u2022 Collaborated with industry partner Chordify, a music software company, to research on the degree of similarity among modern pop music from a purely analytical perspective.\u2022 Modelled 250 songs from Billboard Hot 100 as a directed network in Python, with nodes representing chords and edges representing chord progressions.\u2022 Investigated the level of similarity through the idea of musical chord progressions and utilized Degree, Eigenvector and Katz measures of centrality to prove that most pop music from the past 3 years followed an identical 4-chord progression.",
+        "text_for_embedding": "User: Shi Kai Chong. Project: Investigation of Similarity of Songs in Pop Culture via Network Analysis. \u2022 Collaborated with industry partner Chordify, a music software company, to research on the degree of similarity among modern pop music from a purely analytical perspective.\u2022 Modelled 250 songs from Billboard Hot 100 as a directed network in Python, with nodes representing chords and edges representing chord progressions.\u2022 Investigated the level of similarity through the idea of musical chord progressions and utilized Degree, Eigenvector and Katz measures of centrality to prove that most pop music from the past 3 years followed an identical 4-chord progression."
+    },
+    {
+        "user_name": "Shi Kai Chong",
+        "title": "Stochastic Optimization of Sandwich Delivery Service",
+        "start_date": "Jan 2015",
+        "description": "\u2022Established project scope for the optimization of a delivery system for Breadyard, a localsandwich cafe\u0301.\u2022 Modelled the inter-arrival times of orders to an exponential distribution through the use of Pearson\u2019s chi-squared test andKolmogorov-Smirnov Test and modelled the delivery system as a M/G/1 queue system.\u2022 Programmed and executed Monte Carlo simulations in Python for alternative models of delivery system to determine theoptimal delivery policy in terms of cost and delivery time trade-offs.\u2022 Presented the project to the President of Singapore, Dr Tony Tan, during the President\u2019s visit to the University in November2015.",
+        "text_for_embedding": "User: Shi Kai Chong. Project: Stochastic Optimization of Sandwich Delivery Service. \u2022Established project scope for the optimization of a delivery system for Breadyard, a localsandwich cafe\u0301.\u2022 Modelled the inter-arrival times of orders to an exponential distribution through the use of Pearson\u2019s chi-squared test andKolmogorov-Smirnov Test and modelled the delivery system as a M/G/1 queue system.\u2022 Programmed and executed Monte Carlo simulations in Python for alternative models of delivery system to determine theoptimal delivery policy in terms of cost and delivery time trade-offs.\u2022 Presented the project to the President of Singapore, Dr Tony Tan, during the President\u2019s visit to the University in November2015."
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Equity Valuation - First Solar (FSLR)",
+        "start_date": "Sep 2024",
+        "description": "- Came up with thesis statements (statements of causation) that link potential changes in FSLR's products, operations, industry and government regulations to changes in company's profits and value- Identified assumptions and collected data required to validate the thesis and valuation model- Identified counter-thesis and risks to the stock's valuation- Linked thesis to changes in cash flows for 2025-2029 and utilized DCF Valuation to come up with firm's target share price",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Equity Valuation - First Solar (FSLR). - Came up with thesis statements (statements of causation) that link potential changes in FSLR's products, operations, industry and government regulations to changes in company's profits and value- Identified assumptions and collected data required to validate the thesis and valuation model- Identified counter-thesis and risks to the stock's valuation- Linked thesis to changes in cash flows for 2025-2029 and utilized DCF Valuation to come up with firm's target share price"
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Investment Stock Pitch (Spotify)",
+        "start_date": "Feb 2024",
+        "description": "\u2022 Collaborated with a team of five to conduct fundamental and technical analysis on our chosen stock Spotify (NYSE: SPOT).\u2022 Conducted extensive research using over 50 financial reports and articles from the Bloomberg Terminal, focusing on firm insights, competitors, and industry analysis.\u2022 Presented key performance and risk metrics to the cohort, utilizing relevant theories and models to explain growth drivers and weaknesses, and projected the security's performance for FY24.Refer to our detailed report and presentation below",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Investment Stock Pitch (Spotify). \u2022 Collaborated with a team of five to conduct fundamental and technical analysis on our chosen stock Spotify (NYSE: SPOT).\u2022 Conducted extensive research using over 50 financial reports and articles from the Bloomberg Terminal, focusing on firm insights, competitors, and industry analysis.\u2022 Presented key performance and risk metrics to the cohort, utilizing relevant theories and models to explain growth drivers and weaknesses, and projected the security's performance for FY24.Refer to our detailed report and presentation below"
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Investment Portfolio Simulator",
+        "start_date": "Jan 2024",
+        "description": "Our project consists of an interactive investment portfolio simulation tool designed to assist portfolio managers and wealth accumulation companies in crafting strategic investment strategies for their clients. The core of our project revolves around an interactive simulation game that emulates the dynamics of real-world investing over a 40-year span. This simulation is engineered to cater to different risk profiles, including risk-averse and high-risk takers, thereby allowing players to understand and craft tailored investment strategies that align with the investor's risk tolerance. It models an agent-based simulation approach, where stock returns are the agents, responding to various market events.We were motivated to pursue this project idea by taking up the ESD Course: 40.240 Investment Science. We wanted to apply the knowledge learnt in the Investment Science course to real world data and simulate the expected returns generated by risk-averse and high-risk portfolio allocation strategies. This project is also extremely useful for the wealth management industry as the simulation provides insightful results into the differences in returns generated upon employing different strategies of asset allocation.",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Investment Portfolio Simulator. Our project consists of an interactive investment portfolio simulation tool designed to assist portfolio managers and wealth accumulation companies in crafting strategic investment strategies for their clients. The core of our project revolves around an interactive simulation game that emulates the dynamics of real-world investing over a 40-year span. This simulation is engineered to cater to different risk profiles, including risk-averse and high-risk takers, thereby allowing players to understand and craft tailored investment strategies that align with the investor's risk tolerance. It models an agent-based simulation approach, where stock returns are the agents, responding to various market events.We were motivated to pursue this project idea by taking up the ESD Course: 40.240 Investment Science. We wanted to apply the knowledge learnt in the Investment Science course to real world data and simulate the expected returns generated by risk-averse and high-risk portfolio allocation strategies. This project is also extremely useful for the wealth management industry as the simulation provides insightful results into the differences in returns generated upon employing different strategies of asset allocation."
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Dashboard for Farm Trials Insight",
+        "start_date": "Jan 2023",
+        "description": "User-friendly dashboard for stakeholders to track testing progress of crop protection products and launch them on time. Final product delivered after multiple consultations with stakeholders.Data cleaning and pre-processing on Excel. Data modelling and prototyping on Power BI",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Dashboard for Farm Trials Insight. User-friendly dashboard for stakeholders to track testing progress of crop protection products and launch them on time. Final product delivered after multiple consultations with stakeholders.Data cleaning and pre-processing on Excel. Data modelling and prototyping on Power BI"
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Energy Improvements to USB Peltier Fridge",
+        "start_date": "Sep 2022",
+        "description": "Improved energy consumption of the USB Peltier Fridge by a factor of 10 through simple thermodynamic modifications. Collected data and analyzed the improvement made through each modification.",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Energy Improvements to USB Peltier Fridge. Improved energy consumption of the USB Peltier Fridge by a factor of 10 through simple thermodynamic modifications. Collected data and analyzed the improvement made through each modification."
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Regression Model to Predict Food Security",
+        "start_date": "Sep 2022",
+        "description": "- Worked with a team of 6 to develop a model using Python to predict prevalence of food insecurity (3-year average) through factors relating to food availability and accessibility- Used techniques such as KNN imputation and outlier visualization to improve the model.",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Regression Model to Predict Food Security. - Worked with a team of 6 to develop a model using Python to predict prevalence of food insecurity (3-year average) through factors relating to food availability and accessibility- Used techniques such as KNN imputation and outlier visualization to improve the model."
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Design Thinking Project",
+        "start_date": "Jan 2022",
+        "description": "Designed a faceted roof and shelter, which included motion-sensored lighting assisted by solar panels, a transparent LCD board at the back, S-shaped benches to improve interaction and a transparent water column to drain water in an easy manner, to counter various issues, at the chosen location at Changi Business Park.",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Design Thinking Project. Designed a faceted roof and shelter, which included motion-sensored lighting assisted by solar panels, a transparent LCD board at the back, S-shaped benches to improve interaction and a transparent water column to drain water in an easy manner, to counter various issues, at the chosen location at Changi Business Park."
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "CFA Institute Research Challenge",
+        "start_date": "Nov 2021",
+        "description": "\u2022Analyzed subject company SATS Ltd. and prepared a written research report describing: business description, industry overview and competitive positioning, investment summary, valuation, financial analysis and investment risks",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: CFA Institute Research Challenge. \u2022Analyzed subject company SATS Ltd. and prepared a written research report describing: business description, industry overview and competitive positioning, investment summary, valuation, financial analysis and investment risks"
+    },
+    {
+        "user_name": "Anirudh Bharadwaj",
+        "title": "Python Application Project",
+        "start_date": "Nov 2021",
+        "description": "\u2022Used Python and Tkinter to develop an interactive game to help young children learn the basics of investing.\u2022Implemented functions, user interactive buttons to buy and sell a stock, text files to read the news report on the company.",
+        "text_for_embedding": "User: Anirudh Bharadwaj. Project: Python Application Project. \u2022Used Python and Tkinter to develop an interactive game to help young children learn the basics of investing.\u2022Implemented functions, user interactive buttons to buy and sell a stock, text files to read the news report on the company."
+    },
+    {
+        "user_name": "Jeremia Juanputra",
+        "title": "Fake News Authentication Plaform",
+        "start_date": "Dec 2017",
+        "description": "",
+        "text_for_embedding": "User: Jeremia Juanputra. Project: Fake News Authentication Plaform. None"
+    },
+    {
+        "user_name": "Jeremia Juanputra",
+        "title": "Flexible Photovoltaics",
+        "start_date": "May 2017",
+        "description": "",
+        "text_for_embedding": "User: Jeremia Juanputra. Project: Flexible Photovoltaics. None"
+    },
+    {
+        "user_name": "Jeremia Juanputra",
+        "title": "Backbot",
+        "start_date": "Aug 2017",
+        "description": "Interactive core and lower back exercises companion",
+        "text_for_embedding": "User: Jeremia Juanputra. Project: Backbot. Interactive core and lower back exercises companion"
+    },
+    {
+        "user_name": "Jeremia Juanputra",
+        "title": "Personal Robot Companion (IEEE)",
+        "start_date": "N/A",
+        "description": "",
+        "text_for_embedding": "User: Jeremia Juanputra. Project: Personal Robot Companion (IEEE). None"
+    },
+    {
+        "user_name": "Jatlyson Ang",
+        "title": "[60.003] Product Design Studio - Nika Atlas",
+        "start_date": "Jan 2025",
+        "description": "This Project was done as part of our Product Design Studio module at Singapore University of Design and Technology in partnership with Nika.Atlas is an innovative hybrid VTOL drone solution engineered to overcome real-world constraints in geospatial mapping missions. Designed for vertical takeoff and fixed-wing cruise, Atlas eliminates the need for traditional runway space while enhancing flight efficiency and data acquisition. With a focus on modularity, endurance, and adaptability, Atlas streamlines operations in constrained environments, empowering teams with a smarter, more flexible approach to aerial intelligence.Problem Statement: How might we increase flight duration, while ensuring ease of launching and landing as well as portability for efficient geospatial data collection?- VTOL drones are able to take off and land within constrained spaces, but have low flight endurance- Fixed-wing drones are able to sustain longer flights but require a runwayIn order to address these problems, we came up with Atlas as a solution.Project Done By:Aderic ChooAmit SankeIsaac OhJatlyson AngRittambhra Rani",
+        "text_for_embedding": "User: Jatlyson Ang. Project: [60.003] Product Design Studio - Nika Atlas. This Project was done as part of our Product Design Studio module at Singapore University of Design and Technology in partnership with Nika.Atlas is an innovative hybrid VTOL drone solution engineered to overcome real-world constraints in geospatial mapping missions. Designed for vertical takeoff and fixed-wing cruise, Atlas eliminates the need for traditional runway space while enhancing flight efficiency and data acquisition. With a focus on modularity, endurance, and adaptability, Atlas streamlines operations in constrained environments, empowering teams with a smarter, more flexible approach to aerial intelligence.Problem Statement: How might we increase flight duration, while ensuring ease of launching and landing as well as portability for efficient geospatial data collection?- VTOL drones are able to take off and land within constrained spaces, but have low flight endurance- Fixed-wing drones are able to sustain longer flights but require a runwayIn order to address these problems, we came up with Atlas as a solution.Project Done By:Aderic ChooAmit SankeIsaac OhJatlyson AngRittambhra Rani"
+    },
+    {
+        "user_name": "Jatlyson Ang",
+        "title": "[03.007] Design Thinking and Innovation - EduCUBE",
+        "start_date": "Jan 2024",
+        "description": "This Project was done as part of our Design Thinking and Innovation module at Singapore University of Design and Technology.EduCUBE is a revolutionary tool designed to transform the classroom environment, enhancing student learning experiences and interactions. With a focus on optimizing student-student, student-speaker, and student-teaching assistant interactions, EduCUBE addresses common challenges students face in maintaining attention and engagement in class.Problem Statement: How Might We Enhance Student\u2019s Learning Experience in Classroom?- Students are not able to keep up with/ understand the lesson materials.- Students may also be afraid to ask questions- Students are not being engaged enough by the professor.- Students are occupied with other things such as eating or doing other module homeworks.- Students cannot see what is presented on the board/screen at the front.In order to address these problem statements, we came up with Educube as a solution.Hardware Components:3x ESP32-S3,6x ILI9341 TFT 2.4 Inch Display,1x MPU6050 Gyroscope and AccelerometerLibraries Used:Bodmer's TFT eSPI - https://github.com/Bodmer/TFT_eSPIBodmer's TFT eWidgets - https://github.com/Bodmer/TFT_eWidgetAdafruit's MPU6050 - https://github.com/adafruit/Adafruit_MPU6050Project Done By:Angeline HalimJatlyson AngBrandon KimNicole NgTok Jing Huan",
+        "text_for_embedding": "User: Jatlyson Ang. Project: [03.007] Design Thinking and Innovation - EduCUBE. This Project was done as part of our Design Thinking and Innovation module at Singapore University of Design and Technology.EduCUBE is a revolutionary tool designed to transform the classroom environment, enhancing student learning experiences and interactions. With a focus on optimizing student-student, student-speaker, and student-teaching assistant interactions, EduCUBE addresses common challenges students face in maintaining attention and engagement in class.Problem Statement: How Might We Enhance Student\u2019s Learning Experience in Classroom?- Students are not able to keep up with/ understand the lesson materials.- Students may also be afraid to ask questions- Students are not being engaged enough by the professor.- Students are occupied with other things such as eating or doing other module homeworks.- Students cannot see what is presented on the board/screen at the front.In order to address these problem statements, we came up with Educube as a solution.Hardware Components:3x ESP32-S3,6x ILI9341 TFT 2.4 Inch Display,1x MPU6050 Gyroscope and AccelerometerLibraries Used:Bodmer's TFT eSPI - https://github.com/Bodmer/TFT_eSPIBodmer's TFT eWidgets - https://github.com/Bodmer/TFT_eWidgetAdafruit's MPU6050 - https://github.com/adafruit/Adafruit_MPU6050Project Done By:Angeline HalimJatlyson AngBrandon KimNicole NgTok Jing Huan"
+    },
+    {
+        "user_name": "Jatlyson Ang",
+        "title": "[10.014] Computational Thinking for Design - Mini Arcade",
+        "start_date": "Oct 2023",
+        "description": "Mini Arcade Games was done as part of the Computational Thinking module at Singapore University of Design and Technology (SUTD)This game is aimed at stressed SUTD students. The goal was to allow students to distress through a series of mini-games created using our newfound knowledge of Python to create a better world by design. We plan to have these games displayed in the area above the Indoor Sports Hall where the food vending machines are. Allowing students to relax when they crave some food after burning the midnight oil.This arcade machine would contain 4 different mini-games. Snake, Space Shooter, Lumberjack and Air Hockey. When the Python file is run, the user can choose one out of these 4 games to be played.Project Done By:Jatlyson AngBrandon KimZachary LeeTok Jing HuanAlson TayBrian Lim",
+        "text_for_embedding": "User: Jatlyson Ang. Project: [10.014] Computational Thinking for Design - Mini Arcade. Mini Arcade Games was done as part of the Computational Thinking module at Singapore University of Design and Technology (SUTD)This game is aimed at stressed SUTD students. The goal was to allow students to distress through a series of mini-games created using our newfound knowledge of Python to create a better world by design. We plan to have these games displayed in the area above the Indoor Sports Hall where the food vending machines are. Allowing students to relax when they crave some food after burning the midnight oil.This arcade machine would contain 4 different mini-games. Snake, Space Shooter, Lumberjack and Air Hockey. When the Python file is run, the user can choose one out of these 4 games to be played.Project Done By:Jatlyson AngBrandon KimZachary LeeTok Jing HuanAlson TayBrian Lim"
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Heuristics and Systems Theory",
+        "start_date": "Apr 2025",
+        "description": "Project I: Applied Genetic Algorithms to optimize casino floor layouts, then simulated a mini-model to test and validate the solution\u2019s performance.Project II: Used systems theory to analyze a blood glucose regulation model, examining equilibrium points and assessing system stability.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Heuristics and Systems Theory. Project I: Applied Genetic Algorithms to optimize casino floor layouts, then simulated a mini-model to test and validate the solution\u2019s performance.Project II: Used systems theory to analyze a blood glucose regulation model, examining equilibrium points and assessing system stability."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Manufacturing and Service Operations Project",
+        "start_date": "May 2025",
+        "description": "Participated in a Lean LEGO production simulation comparing push (forecast-driven) and pull (demand-driven) systems to evaluate their impact on workflow efficiency, inventory levels, and costs. The project demonstrated that pull-based operations significantly reduce waste and improve responsiveness when supported by clear communication and coordinated team processes.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Manufacturing and Service Operations Project. Participated in a Lean LEGO production simulation comparing push (forecast-driven) and pull (demand-driven) systems to evaluate their impact on workflow efficiency, inventory levels, and costs. The project demonstrated that pull-based operations significantly reduce waste and improve responsiveness when supported by clear communication and coordinated team processes."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Bayesian Regression & Predictive Modeling Project",
+        "start_date": "Jan 2025",
+        "description": "As part of SUTD's 40.017 Probability and Statistics module, our team applied Bayesian linear regression and bivariate normal distributions to analyze real-world datasets. We derived posterior and predictive distributions, performed prior sampling, and visualized uncertainty in predictions. This project deepened our understanding of probabilistic inference, with practical applications in decision-making under uncertainty.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Bayesian Regression & Predictive Modeling Project. As part of SUTD's 40.017 Probability and Statistics module, our team applied Bayesian linear regression and bivariate normal distributions to analyze real-world datasets. We derived posterior and predictive distributions, performed prior sampling, and visualized uncertainty in predictions. This project deepened our understanding of probabilistic inference, with practical applications in decision-making under uncertainty."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Optimization Project",
+        "start_date": "Jan 2025",
+        "description": "Formulated and solved a real-world decision problem using mixed-integer linear programming (MILP). Modeled constraints, defined objective functions, and validated solution correctness. Used JuMP in Julia to run simulations and interpret results for strategic optimization.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Optimization Project. Formulated and solved a real-world decision problem using mixed-integer linear programming (MILP). Modeled constraints, defined objective functions, and validated solution correctness. Used JuMP in Julia to run simulations and interpret results for strategic optimization."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Transformation of Data into Business Insights",
+        "start_date": "Jan 2025",
+        "description": "Worked with International SOS.Derived automated data cleaning methods using Tableau and R, creating a comprehensive dashboard.Produced actionable insights for marketing optimization, supporting strategic decision-making.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Transformation of Data into Business Insights. Worked with International SOS.Derived automated data cleaning methods using Tableau and R, creating a comprehensive dashboard.Produced actionable insights for marketing optimization, supporting strategic decision-making."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Cell-Based Meat Innovation",
+        "start_date": "Sep 2024",
+        "description": "Collaborated on a design thinking project to develop bioprocesses for producing cell-based meat with enhanced nutritional value and sensory similarity to conventional meat. Focused on sustainability, scalability, and real-world feasibility, integrating biology, engineering, and market research to shape practical food-tech solutions.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Cell-Based Meat Innovation. Collaborated on a design thinking project to develop bioprocesses for producing cell-based meat with enhanced nutritional value and sensory similarity to conventional meat. Focused on sustainability, scalability, and real-world feasibility, integrating biology, engineering, and market research to shape practical food-tech solutions."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Neighbourhood-Based Traditional Chinese Medicine for Healthy Aging",
+        "start_date": "Jul 2024",
+        "description": "Collaborated with peers from Shanghai Jiao Tong University during a 2024 FACT program to explore how Traditional Chinese Medicine (TCM) can support self-care and healthy aging. Used the design thinking framework (Discover, Define, Develop, Deliver) to develop community-level solutions that promote wellness and empower elderly individuals through accessible TCM practices.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Neighbourhood-Based Traditional Chinese Medicine for Healthy Aging. Collaborated with peers from Shanghai Jiao Tong University during a 2024 FACT program to explore how Traditional Chinese Medicine (TCM) can support self-care and healthy aging. Used the design thinking framework (Discover, Define, Develop, Deliver) to develop community-level solutions that promote wellness and empower elderly individuals through accessible TCM practices."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Flood Adaptation Model",
+        "start_date": "Jan 2024",
+        "description": "Developed a model comparing multiple strategies using data analysis and mathematical modelling to measure cost of damage.Evaluated solutions for coastal resilience and prioritized effective methods to reduce flood impact.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Flood Adaptation Model. Developed a model comparing multiple strategies using data analysis and mathematical modelling to measure cost of damage.Evaluated solutions for coastal resilience and prioritized effective methods to reduce flood impact."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "FM Transmitter & Variable Capacitor Project",
+        "start_date": "Jan 2024",
+        "description": "Built a variable capacitor and inductor to operate at ~60MHz in an FM transmitter.Combined theoretical calculations with experimental testing using an SDR to validate performance.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: FM Transmitter & Variable Capacitor Project. Built a variable capacitor and inductor to operate at ~60MHz in an FM transmitter.Combined theoretical calculations with experimental testing using an SDR to validate performance."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Vertical Farming & LCA Study",
+        "start_date": "Jan 2024",
+        "description": "Applied Life Cycle Assessment (LCA) to evaluate the sustainability of selected consumer products. Investigated the feasibility of vertical farming in Singapore as a long-term solution for food security, focusing on resource efficiency, space constraints, and environmental impact.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Vertical Farming & LCA Study. Applied Life Cycle Assessment (LCA) to evaluate the sustainability of selected consumer products. Investigated the feasibility of vertical farming in Singapore as a long-term solution for food security, focusing on resource efficiency, space constraints, and environmental impact."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Parachute Relief System",
+        "start_date": "Sep 2023",
+        "description": "Designed an airdrop system for medical supplies Used an IMU sensor, microcontroller programming, physics principles, Excel data analysis, calculus-based modeling to optimize flight time and minimize impact forces.Employed social science research to address ethical considerations and streamline delivery in remote areas.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Parachute Relief System. Designed an airdrop system for medical supplies Used an IMU sensor, microcontroller programming, physics principles, Excel data analysis, calculus-based modeling to optimize flight time and minimize impact forces.Employed social science research to address ethical considerations and streamline delivery in remote areas."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Rubber-Band Racer",
+        "start_date": "Sep 2023",
+        "description": "Created a toy car using 3D-printing and physics principles, powered by rubber bands.Aimed to demonstrate energy transformation.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Rubber-Band Racer. Created a toy car using 3D-printing and physics principles, powered by rubber bands.Aimed to demonstrate energy transformation."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Light - Dream Express",
+        "start_date": "Feb 2023",
+        "description": "The Dream Express is a simple yet innovative solution designed to let university students relax, rejuvenate, and recoup their mental energy within just 10 minutes. Developed by our team, Photosynthesis, The Dream Express addresses the pressing needs of students grappling with the challenges of fatigue, stress, anxiety, and other related issues that often hinder academic and personal growth.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Light - Dream Express. The Dream Express is a simple yet innovative solution designed to let university students relax, rejuvenate, and recoup their mental energy within just 10 minutes. Developed by our team, Photosynthesis, The Dream Express addresses the pressing needs of students grappling with the challenges of fatigue, stress, anxiety, and other related issues that often hinder academic and personal growth."
+    },
+    {
+        "user_name": "Yuqing Jiang",
+        "title": "Project Textstyle",
+        "start_date": "Mar 2021",
+        "description": "Combated fast fashion by converting textile waste into reusable materials and raising sustainability awareness.Integrated a shred-to-thread bin, a community clothes swap event, and an interactive app, leveraging product development, data analysis, event management, and digital marketing skills.",
+        "text_for_embedding": "User: Yuqing Jiang. Project: Project Textstyle. Combated fast fashion by converting textile waste into reusable materials and raising sustainability awareness.Integrated a shred-to-thread bin, a community clothes swap event, and an interactive app, leveraging product development, data analysis, event management, and digital marketing skills."
+    },
+    {
+        "user_name": "Yu Fei Wong",
+        "title": "Breakify",
+        "start_date": "N/A",
+        "description": "As students experiencing similar pressures, we created Breakify, a one-stop platform designed to help students and working adults track their work and rest schedules. Breakify aims to alleviate pain from prolonged work sessions by reminding users to take breaks and optimizing their work-rest cycle based on past user data.Key Features:- Break-Work Timer: A minimalistic interface to help users manage their break and work sessions without distractions. Users can intuitively control and pause sessions if interrupted.- Social and Meetups: Users can add friends to go on breaks with and see which friends are also on breaks. Integration with Telegram allows for easy scheduling of meetups.- Activities: Utilizes the Google Maps API to generate walking routes to notable landmarks based on user-specified durations.",
+        "text_for_embedding": "User: Yu Fei Wong. Project: Breakify. As students experiencing similar pressures, we created Breakify, a one-stop platform designed to help students and working adults track their work and rest schedules. Breakify aims to alleviate pain from prolonged work sessions by reminding users to take breaks and optimizing their work-rest cycle based on past user data.Key Features:- Break-Work Timer: A minimalistic interface to help users manage their break and work sessions without distractions. Users can intuitively control and pause sessions if interrupted.- Social and Meetups: Users can add friends to go on breaks with and see which friends are also on breaks. Integration with Telegram allows for easy scheduling of meetups.- Activities: Utilizes the Google Maps API to generate walking routes to notable landmarks based on user-specified durations."
+    },
+    {
+        "user_name": "Yu Fei Wong",
+        "title": "ElderGPT",
+        "start_date": "N/A",
+        "description": "While many elderly individuals own mobile phones, they often struggle to use various mobile applications due to their complexity. ElderGPT was created to address this issue by providing an elderly-friendly gateway to interact with multiple mobile applications.Overview:ElderGPT enhances usability for the elderly through the following core functionalities:- Text and Speech Interaction:Users can converse with the model using speech, supporting different languages via Streamlit.The model can read out its output using different agents with varying speaking rates, leveraging the ElevenLabs API.- Integration with Various Applications:The Langchain agent is equipped with custom tools for seamless integration with Google Calendar, Google Translate, Google Maps, News, Door Dash, and email.",
+        "text_for_embedding": "User: Yu Fei Wong. Project: ElderGPT. While many elderly individuals own mobile phones, they often struggle to use various mobile applications due to their complexity. ElderGPT was created to address this issue by providing an elderly-friendly gateway to interact with multiple mobile applications.Overview:ElderGPT enhances usability for the elderly through the following core functionalities:- Text and Speech Interaction:Users can converse with the model using speech, supporting different languages via Streamlit.The model can read out its output using different agents with varying speaking rates, leveraging the ElevenLabs API.- Integration with Various Applications:The Langchain agent is equipped with custom tools for seamless integration with Google Calendar, Google Translate, Google Maps, News, Door Dash, and email."
+    },
+    {
+        "user_name": "Yu Fei Wong",
+        "title": "Erudite",
+        "start_date": "N/A",
+        "description": "Have you ever faced existential crises and imposter syndrome from college workload? You're not alone! Keeping up with the pace expected by lecturers can be daunting. Erudite was created to help students learn better by providing structure and self-guided learning tools.Erudite enhances the learning experience through three main features:- Reducing Cognitive Leaps:Structures learning journeys with topical segregation and concept decomposition.Uses LLM capabilities to break down questions into digestible subsets, fostering critical thinking and problem-solving skills.- Topologically Sorting Topics:Generates dependencies between different course topics using LLM, allowing targeted revision.Helps users catch up on missed or lagging content by focusing on weak points.- Periodic Evaluation:Offers diagnostic evaluations to assess understanding and provide benchmarks.Guides users to further practices and resources based on their competency levels.",
+        "text_for_embedding": "User: Yu Fei Wong. Project: Erudite. Have you ever faced existential crises and imposter syndrome from college workload? You're not alone! Keeping up with the pace expected by lecturers can be daunting. Erudite was created to help students learn better by providing structure and self-guided learning tools.Erudite enhances the learning experience through three main features:- Reducing Cognitive Leaps:Structures learning journeys with topical segregation and concept decomposition.Uses LLM capabilities to break down questions into digestible subsets, fostering critical thinking and problem-solving skills.- Topologically Sorting Topics:Generates dependencies between different course topics using LLM, allowing targeted revision.Helps users catch up on missed or lagging content by focusing on weak points.- Periodic Evaluation:Offers diagnostic evaluations to assess understanding and provide benchmarks.Guides users to further practices and resources based on their competency levels."
+    },
+    {
+        "user_name": "Yu Fei Wong",
+        "title": "greenflags",
+        "start_date": "N/A",
+        "description": "When moving to the Bay Area, finding a place to live amidst San Francisco's high housing prices was a challenge. We've all heard the roommate horror stories, and the current solutions focus too much on the house itself rather than the people you live with. greenflags aims to solve this by focusing on personal compatibility and leveraging AI to ensure better roommate matches.greenflags is an AI-powered roommate matching service that enhances compatibility by understanding individual needs and preferences. Moving away from traditional form-based questionnaires, greenflags captures nuanced free-text responses to learn about users' personalities and desired roommate attributes.Key Features:- AI-Enhanced Matching: Uses AI to understand and match users based on detailed personality traits and preferences.- Compatibility Scoring: Provides compatibility scores, pentagon charts of overlapping traits, and AI representations of potential matches' responses.- User-Friendly Interface: A beautifully designed and accessible user interface that makes sharing personal stories easier and more comfortable.",
+        "text_for_embedding": "User: Yu Fei Wong. Project: greenflags. When moving to the Bay Area, finding a place to live amidst San Francisco's high housing prices was a challenge. We've all heard the roommate horror stories, and the current solutions focus too much on the house itself rather than the people you live with. greenflags aims to solve this by focusing on personal compatibility and leveraging AI to ensure better roommate matches.greenflags is an AI-powered roommate matching service that enhances compatibility by understanding individual needs and preferences. Moving away from traditional form-based questionnaires, greenflags captures nuanced free-text responses to learn about users' personalities and desired roommate attributes.Key Features:- AI-Enhanced Matching: Uses AI to understand and match users based on detailed personality traits and preferences.- Compatibility Scoring: Provides compatibility scores, pentagon charts of overlapping traits, and AI representations of potential matches' responses.- User-Friendly Interface: A beautifully designed and accessible user interface that makes sharing personal stories easier and more comfortable."
+    },
+    {
+        "user_name": "Yu Fei Wong",
+        "title": "Jobpocalypse",
+        "start_date": "N/A",
+        "description": "A retro 2D action shooter game where the player takes on the role of Timmy, a Computer Science graduate looking for a job. Timmy battles waves of HR recruiters with his resume, overcoming rejections to survive the tech winter. As he progresses, Timmy realizes the need to upgrade his skills beyond basic coursework to secure employment.Key Features:- Gameplay: Players control Timmy, fighting off HR recruiters in a survival scenario.- Skill Upgrades: Timmy must build industry-relevant skills to improve his chances of success.- Storyline: A narrative highlighting the importance of continuous learning and adaptation in the tech industry.",
+        "text_for_embedding": "User: Yu Fei Wong. Project: Jobpocalypse. A retro 2D action shooter game where the player takes on the role of Timmy, a Computer Science graduate looking for a job. Timmy battles waves of HR recruiters with his resume, overcoming rejections to survive the tech winter. As he progresses, Timmy realizes the need to upgrade his skills beyond basic coursework to secure employment.Key Features:- Gameplay: Players control Timmy, fighting off HR recruiters in a survival scenario.- Skill Upgrades: Timmy must build industry-relevant skills to improve his chances of success.- Storyline: A narrative highlighting the importance of continuous learning and adaptation in the tech industry."
+    },
+    {
+        "user_name": "Yu Fei Wong",
+        "title": "LangUR",
+        "start_date": "N/A",
+        "description": "Learning a language is challenging, and achieving fluency requires more than just proficiency. LangUR was developed to bridge the gap between basic language skills and true fluency. In a diverse business world, where hundreds of languages are used, fluency is crucial. Studies have shown that many language learners struggle to move beyond a beginner level, which motivated us to create a more effective learning solution.LangUR is a groundbreaking language learning platform that stands out through its efficiency, scalability, and practicality. By integrating language practice into the daily workflow, LangUR ensures consistent progress and fluency.Key Features:- Grounded Evaluation Metric: Uses the LIX scoring algorithm to measure performance.- Adaptive Learning: The application learns and adapts to individual learner's abilities.Seamless Integration: Incorporates language learning into the daily workflow, making it a natural part of the user's day.- Reinforcement: Reinforces learning through review quizzes and suggested articles based on past history.",
+        "text_for_embedding": "User: Yu Fei Wong. Project: LangUR. Learning a language is challenging, and achieving fluency requires more than just proficiency. LangUR was developed to bridge the gap between basic language skills and true fluency. In a diverse business world, where hundreds of languages are used, fluency is crucial. Studies have shown that many language learners struggle to move beyond a beginner level, which motivated us to create a more effective learning solution.LangUR is a groundbreaking language learning platform that stands out through its efficiency, scalability, and practicality. By integrating language practice into the daily workflow, LangUR ensures consistent progress and fluency.Key Features:- Grounded Evaluation Metric: Uses the LIX scoring algorithm to measure performance.- Adaptive Learning: The application learns and adapts to individual learner's abilities.Seamless Integration: Incorporates language learning into the daily workflow, making it a natural part of the user's day.- Reinforcement: Reinforces learning through review quizzes and suggested articles based on past history."
+    },
+    {
+        "user_name": "Yu Fei Wong",
+        "title": "SingCast",
+        "start_date": "N/A",
+        "description": "SingCast is a multi-functional web platform designed to provide accurate and easy-to-understand data visualizations. It addresses the needs of various Singtel stakeholders, including logistical support staff, ground staff, and campaign managers, by offering functionalities that aid in their daily operations. Key Features:- Dashboard: Visualizes store information with various filters for detailed insights.- Campaigns Page: Allows campaign managers to easily visualize and add campaigns.- Machine Learning Integration: Utilizes a trained Random Forest Regressor Model to forecast mobile phone demand based on various factors, helping logistical support staff plan ahead and maintain adequate supplies.",
+        "text_for_embedding": "User: Yu Fei Wong. Project: SingCast. SingCast is a multi-functional web platform designed to provide accurate and easy-to-understand data visualizations. It addresses the needs of various Singtel stakeholders, including logistical support staff, ground staff, and campaign managers, by offering functionalities that aid in their daily operations. Key Features:- Dashboard: Visualizes store information with various filters for detailed insights.- Campaigns Page: Allows campaign managers to easily visualize and add campaigns.- Machine Learning Integration: Utilizes a trained Random Forest Regressor Model to forecast mobile phone demand based on various factors, helping logistical support staff plan ahead and maintain adequate supplies."
+    },
+    {
+        "user_name": "Tan See Yen Amanda",
+        "title": "Economic Dynamic System Analysis",
+        "start_date": "Jul 2025",
+        "description": "\u2022 Conducted a comprehensive analysis of a dynamic economic model.\u2022 Identified the system\u2019s equilibrium points and assessed the controllability and observability of its linearized form.\u2022 Successfully designed state-feedback controllers and observer gains to ensure desired system stability and performance.",
+        "text_for_embedding": "User: Tan See Yen Amanda. Project: Economic Dynamic System Analysis. \u2022 Conducted a comprehensive analysis of a dynamic economic model.\u2022 Identified the system\u2019s equilibrium points and assessed the controllability and observability of its linearized form.\u2022 Successfully designed state-feedback controllers and observer gains to ensure desired system stability and performance."
+    },
+    {
+        "user_name": "Tan See Yen Amanda",
+        "title": "Kaggle Competition: Discrete Choice Modeling",
+        "start_date": "Jul 2025",
+        "description": "\u2022 Developed and evaluated multiple discrete choice models to predict outcomes, using techniques like XGBoost, and Multinomial Logit.\u2022 Demonstrated initiative by researching and implementing advanced, self-taught predictive methods to enhance model accuracy and performance.",
+        "text_for_embedding": "User: Tan See Yen Amanda. Project: Kaggle Competition: Discrete Choice Modeling. \u2022 Developed and evaluated multiple discrete choice models to predict outcomes, using techniques like XGBoost, and Multinomial Logit.\u2022 Demonstrated initiative by researching and implementing advanced, self-taught predictive methods to enhance model accuracy and performance."
+    },
+    {
+        "user_name": "Tan See Yen Amanda",
+        "title": "Optimized World Tour Plan",
+        "start_date": "May 2025",
+        "description": "\u2022 Designed and implemented a metaheuristic model in Python to solve a complex world tour optimization problem.\u2022 Formulated a realistic problem by defining and incorporating real-world constraints, and processed a large-scale dataset.\u2022 Applied metaheuristic algorithm to efficiently navigate the solution space and determine the most cost-effective and time-efficient travel itinerary.",
+        "text_for_embedding": "User: Tan See Yen Amanda. Project: Optimized World Tour Plan. \u2022 Designed and implemented a metaheuristic model in Python to solve a complex world tour optimization problem.\u2022 Formulated a realistic problem by defining and incorporating real-world constraints, and processed a large-scale dataset.\u2022 Applied metaheuristic algorithm to efficiently navigate the solution space and determine the most cost-effective and time-efficient travel itinerary."
+    },
+    {
+        "user_name": "Tan See Yen Amanda",
+        "title": "Optimized diet plan for pregnant mothers",
+        "start_date": "Jan 2025",
+        "description": "Come out of our constraints to make the optimization problem as real-life as possible.Write the Python code to solve the linearization problem using IJulia solver",
+        "text_for_embedding": "User: Tan See Yen Amanda. Project: Optimized diet plan for pregnant mothers. Come out of our constraints to make the optimization problem as real-life as possible.Write the Python code to solve the linearization problem using IJulia solver"
+    },
+    {
+        "user_name": "Tan See Yen Amanda",
+        "title": "Predictive model for chemical tanker freight rates",
+        "start_date": "Jan 2025",
+        "description": "Work with Eastport Maritime Pte Ltd.Identify external factors affecting the freight rate including macroeconomic factors.Build predictive models using R Studio for four different lanes.",
+        "text_for_embedding": "User: Tan See Yen Amanda. Project: Predictive model for chemical tanker freight rates. Work with Eastport Maritime Pte Ltd.Identify external factors affecting the freight rate including macroeconomic factors.Build predictive models using R Studio for four different lanes."
+    },
+    {
+        "user_name": "Tan See Yen Amanda",
+        "title": "MisTree DTI (Design Thinking and Innovation)",
+        "start_date": "Jan 2024",
+        "description": "Boldly offer creative suggestions and ideas.Conduct thorough research and assist in purchasing materials.Build the product.Laser cutting and wood cuttingPoster creating",
+        "text_for_embedding": "User: Tan See Yen Amanda. Project: MisTree DTI (Design Thinking and Innovation). Boldly offer creative suggestions and ideas.Conduct thorough research and assist in purchasing materials.Build the product.Laser cutting and wood cuttingPoster creating"
+    },
+    {
+        "user_name": "Tan See Yen Amanda",
+        "title": "Jerry The Cat Game",
+        "start_date": "Dec 2023",
+        "description": "Led a team of 6 to design a game with Python codes and the turtle libraryCompleted the gameplay using Replit by coding the different parts of the game in different folders and used the ASCII art for the game charactershttps://github.com/hiihida/CTD1DProject",
+        "text_for_embedding": "User: Tan See Yen Amanda. Project: Jerry The Cat Game. Led a team of 6 to design a game with Python codes and the turtle libraryCompleted the gameplay using Replit by coding the different parts of the game in different folders and used the ASCII art for the game charactershttps://github.com/hiihida/CTD1DProject"
+    },
+    {
+        "user_name": "Gabriel Kay",
+        "title": "Fidor Bank Open Banking Web Application",
+        "start_date": "Dec 2021",
+        "description": "Designed and developed a foreign exchange services website using Flask as the operating system, and Python as the programming language and different APIs to get information such as different currency prices, news, and technical indicator.",
+        "text_for_embedding": "User: Gabriel Kay. Project: Fidor Bank Open Banking Web Application. Designed and developed a foreign exchange services website using Flask as the operating system, and Python as the programming language and different APIs to get information such as different currency prices, news, and technical indicator."
+    },
+    {
+        "user_name": "Gabriel Kay",
+        "title": "Football News Hybrid App",
+        "start_date": "Apr 2021",
+        "description": "Designed and developed a football news app using Ionic as the operating system, Google Firebase as the database and Typescript as the programming language",
+        "text_for_embedding": "User: Gabriel Kay. Project: Football News Hybrid App. Designed and developed a football news app using Ionic as the operating system, Google Firebase as the database and Typescript as the programming language"
+    },
+    {
+        "user_name": "Gabriel Kay",
+        "title": "Restaurant Review Website",
+        "start_date": "Oct 2020",
+        "description": "Designed and developed restaurant website for school project using Visual Studio Code as the operating system, MySQL as the database and Java Script for the programming language",
+        "text_for_embedding": "User: Gabriel Kay. Project: Restaurant Review Website. Designed and developed restaurant website for school project using Visual Studio Code as the operating system, MySQL as the database and Java Script for the programming language"
+    },
+    {
+        "user_name": "Gabriel Kay",
+        "title": "Music App",
+        "start_date": "Apr 2020",
+        "description": "Designed and Build a music app using Android Studio",
+        "text_for_embedding": "User: Gabriel Kay. Project: Music App. Designed and Build a music app using Android Studio"
+    },
+    {
+        "user_name": "Yogesh Shelgaonkar",
+        "title": "PayPal Verification Application",
+        "start_date": "May 2022",
+        "description": "- Programmed an Android application for Paypal using Java and Android Studio - Built an \u201cIdentity Enrolment and Issuance\u201d module for migrant populations to utilize for traditional financial services. - The app verified user identities and thus prevented misuse of Paypal\u2019s service",
+        "text_for_embedding": "User: Yogesh Shelgaonkar. Project: PayPal Verification Application. - Programmed an Android application for Paypal using Java and Android Studio - Built an \u201cIdentity Enrolment and Issuance\u201d module for migrant populations to utilize for traditional financial services. - The app verified user identities and thus prevented misuse of Paypal\u2019s service"
+    },
+    {
+        "user_name": "Yogesh Shelgaonkar",
+        "title": "SUTD Hate Speech Machine Learning Competition - 2nd Place",
+        "start_date": "May 2022",
+        "description": "- Made a machine learning model using Python that recognises hate speech- Coded the model in Python, using Logistic Regression and XGBoost",
+        "text_for_embedding": "User: Yogesh Shelgaonkar. Project: SUTD Hate Speech Machine Learning Competition - 2nd Place. - Made a machine learning model using Python that recognises hate speech- Coded the model in Python, using Logistic Regression and XGBoost"
+    },
+    {
+        "user_name": "Yogesh Shelgaonkar",
+        "title": "Homeguard Android Application",
+        "start_date": "Jan 2022",
+        "description": "Built an affordable home surveillance system my coding an Android application, Raspberry Pi and Webcams",
+        "text_for_embedding": "User: Yogesh Shelgaonkar. Project: Homeguard Android Application. Built an affordable home surveillance system my coding an Android application, Raspberry Pi and Webcams"
+    },
+    {
+        "user_name": "Yogesh Shelgaonkar",
+        "title": "Space Escape",
+        "start_date": "Jan 2022",
+        "description": "- A handheld game requires the player to dodge obstacles for 30 seconds, with 3 levels of varying difficulty- Coded a beta CPU on an FPGA using Lucid programming, laser cut an acrylic casing and soldered and wired the hardware to make a game",
+        "text_for_embedding": "User: Yogesh Shelgaonkar. Project: Space Escape. - A handheld game requires the player to dodge obstacles for 30 seconds, with 3 levels of varying difficulty- Coded a beta CPU on an FPGA using Lucid programming, laser cut an acrylic casing and soldered and wired the hardware to make a game"
+    },
+    {
+        "user_name": "Yogesh Shelgaonkar",
+        "title": "Simon Says",
+        "start_date": "Jan 2021",
+        "description": "- Built a reflex game which aids patients of Parkinsons and Dementia to regain motor function in their hands- Wrote code for Arduino using C++, and used 3D modeling in Solidworks and 3D printing for the casing- Soldered and assembled the hardware for the game",
+        "text_for_embedding": "User: Yogesh Shelgaonkar. Project: Simon Says. - Built a reflex game which aids patients of Parkinsons and Dementia to regain motor function in their hands- Wrote code for Arduino using C++, and used 3D modeling in Solidworks and 3D printing for the casing- Soldered and assembled the hardware for the game"
+    },
+    {
+        "user_name": "Yogesh Shelgaonkar",
+        "title": "Piezo Tracker",
+        "start_date": "Sep 2020",
+        "description": "- A tracker that is slotted into the shoes of dementia patients to track their movements when they leave the house- As dementia patients often forget to bring their tracker out with them, or charge the tracker, the tracker is placed in their shoes and is powered using piezo electricity so that it can be charged with their footsteps",
+        "text_for_embedding": "User: Yogesh Shelgaonkar. Project: Piezo Tracker. - A tracker that is slotted into the shoes of dementia patients to track their movements when they leave the house- As dementia patients often forget to bring their tracker out with them, or charge the tracker, the tracker is placed in their shoes and is powered using piezo electricity so that it can be charged with their footsteps"
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Prioritisation of Echocardiography Requests",
+        "start_date": "Jan 2024",
+        "description": "This project was part of the 01.116 AI for Healthcare module in SUTD, and in collaboration with Sengkang General Hospital.The team developed machine learning models to classify and prioritise echocardiogram requests to optimise resource use and ensure timely care for critical patients, eventually achieving a maximum ROC AUC score of 0.672 with LightGBM, with key clinical features such as creatinine, troponin levels, and patient age identified as significant predictors. I worked on engineering 55 features from clinical data, including demographics, clinical history, and lab results; as well as machine learning models. SHAP and LIME were also used for global and local explainability of model predictions.",
+        "text_for_embedding": "User: Kellie Sim. Project: Prioritisation of Echocardiography Requests. This project was part of the 01.116 AI for Healthcare module in SUTD, and in collaboration with Sengkang General Hospital.The team developed machine learning models to classify and prioritise echocardiogram requests to optimise resource use and ensure timely care for critical patients, eventually achieving a maximum ROC AUC score of 0.672 with LightGBM, with key clinical features such as creatinine, troponin levels, and patient age identified as significant predictors. I worked on engineering 55 features from clinical data, including demographics, clinical history, and lab results; as well as machine learning models. SHAP and LIME were also used for global and local explainability of model predictions."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Glowing Guide / Enhanced Patient Journey at Hospitals",
+        "start_date": "Sep 2023",
+        "description": "This project was part of the 01.400 Capstone 1 and 01.401 Capstone 2 modules at SUTD and was conducted in collaboration with Alexandra Hospital. The team focused on delivering personalised and optimised directional assistance within hospitals by scanning shoeprints and integrating projections with visual redesigns of signage and zones. My primary role in this project involved supporting the team's efforts in utilizing Amazon Web Services (AWS) for various components, including route optimisation, database setup and management, message and queue services, Internet-of-Things cloud service integration, and website hosting. I developed a website using React, Tailwind CSS, and AWS Amplify to simulate the proposed patient registration process. Additionally, I wrote AWS Lambda functions in Python and JavaScript to support various aspects of the project. My responsibilities also included maintaining the codebase and files for the entire project. To ensure the effectiveness of our design choices and improve system usability, the team conducted three user studies in the second term. Furthermore, in the first term, we conducted four user studies and interviews to understand the pain points experienced by patients, caregivers, and hospital staff. I also analysed results from our user studies in terms of qualitative analysis, quantitative analysis, and sentiment analysis, to propose evidence-based suggestions to inform the development of our final prototype.Throughout the project, I also contributed to the authoring of various written deliverables, including the project report, the content of the poster, the filming of the project video, the creation of content for the virtual showcase website, and the recording of meeting minutes.",
+        "text_for_embedding": "User: Kellie Sim. Project: Glowing Guide / Enhanced Patient Journey at Hospitals. This project was part of the 01.400 Capstone 1 and 01.401 Capstone 2 modules at SUTD and was conducted in collaboration with Alexandra Hospital. The team focused on delivering personalised and optimised directional assistance within hospitals by scanning shoeprints and integrating projections with visual redesigns of signage and zones. My primary role in this project involved supporting the team's efforts in utilizing Amazon Web Services (AWS) for various components, including route optimisation, database setup and management, message and queue services, Internet-of-Things cloud service integration, and website hosting. I developed a website using React, Tailwind CSS, and AWS Amplify to simulate the proposed patient registration process. Additionally, I wrote AWS Lambda functions in Python and JavaScript to support various aspects of the project. My responsibilities also included maintaining the codebase and files for the entire project. To ensure the effectiveness of our design choices and improve system usability, the team conducted three user studies in the second term. Furthermore, in the first term, we conducted four user studies and interviews to understand the pain points experienced by patients, caregivers, and hospital staff. I also analysed results from our user studies in terms of qualitative analysis, quantitative analysis, and sentiment analysis, to propose evidence-based suggestions to inform the development of our final prototype.Throughout the project, I also contributed to the authoring of various written deliverables, including the project report, the content of the poster, the filming of the project video, the creation of content for the virtual showcase website, and the recording of meeting minutes."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Glucose Conquest",
+        "start_date": "Sep 2023",
+        "description": "This project was done as part of the 01.114 Instructional Design of Serious Games for Healthcare module in SUTD, and in collaboration with KK Women\u2019s and Children\u2019s Hospital.The team developed a mobile-based virtual pet serious game designed to empower children dealing with Type 1 diabetes, and conceptualised game mechanics to teach young children about managing their health, learning vital skills such as taking glucometer readings and executing insulin injections. I was the main developer for this project, and worked on developing and coding the game using Unity and frontend game design screens developed on Figma.",
+        "text_for_embedding": "User: Kellie Sim. Project: Glucose Conquest. This project was done as part of the 01.114 Instructional Design of Serious Games for Healthcare module in SUTD, and in collaboration with KK Women\u2019s and Children\u2019s Hospital.The team developed a mobile-based virtual pet serious game designed to empower children dealing with Type 1 diabetes, and conceptualised game mechanics to teach young children about managing their health, learning vital skills such as taking glucometer readings and executing insulin injections. I was the main developer for this project, and worked on developing and coding the game using Unity and frontend game design screens developed on Figma."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Guided by Love: A Caregiver\u2019s Path",
+        "start_date": "Sep 2023",
+        "description": "This project was done as part of the 02.230TS Health Communication and Behaviour Change module in SUTD.The team conceptualised an interactive video designed to enhance understanding and empathy towards the experiences of caregivers, with the ultimate goal of promoting more comprehensive support systems. We eventually filmed a short trailer for this video. I helped to conceptualise the video direction and theories shown in the video, as well as written deliverables such as the report.",
+        "text_for_embedding": "User: Kellie Sim. Project: Guided by Love: A Caregiver\u2019s Path. This project was done as part of the 02.230TS Health Communication and Behaviour Change module in SUTD.The team conceptualised an interactive video designed to enhance understanding and empathy towards the experiences of caregivers, with the ultimate goal of promoting more comprehensive support systems. We eventually filmed a short trailer for this video. I helped to conceptualise the video direction and theories shown in the video, as well as written deliverables such as the report."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "PD-opoly",
+        "start_date": "Sep 2023",
+        "description": "This project was done as part of the 01.101 Technologies for Sustainable Global Health module in SUTD, in collaboration with the National Kidney Foundation (NKF).The team devised a way to reduce the knowledge gap of peritoneal dialysis (PD) among tertiary students in Singapore among and highlight it as an alternative treatment for kidney failure with the goal of fostering wider acceptance of PD in the future. We also conceptualised a new flow for NKF\u2019s outreach sessions. I aided in the development of an interactive Figma prototype for a microsite that provided an enjoyable and immersive learning experience that could be done before, during, and after the session; as well as the design of a board game adapted from Monopoly to make the intricacies of PD accessible.",
+        "text_for_embedding": "User: Kellie Sim. Project: PD-opoly. This project was done as part of the 01.101 Technologies for Sustainable Global Health module in SUTD, in collaboration with the National Kidney Foundation (NKF).The team devised a way to reduce the knowledge gap of peritoneal dialysis (PD) among tertiary students in Singapore among and highlight it as an alternative treatment for kidney failure with the goal of fostering wider acceptance of PD in the future. We also conceptualised a new flow for NKF\u2019s outreach sessions. I aided in the development of an interactive Figma prototype for a microsite that provided an enjoyable and immersive learning experience that could be done before, during, and after the session; as well as the design of a board game adapted from Monopoly to make the intricacies of PD accessible."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Introduction To Neural Prostheses/Neural Assistive Devices",
+        "start_date": "May 2023",
+        "description": "This project was done under SUTD's Undergraduate Research Opportunities Programme. The aim was to build a research database that would enable the development of a prototype neural prosthesis that can successfully be integrated with the human nervous system through computer and brain interfacing.I conducted a comprehensive literature review on existing neural prostheses, developments in cognitive neuroscience, and cognitive science, identified the limitations or fallacies in existing research, and discussed and reviewed research articles related to the field of study with fellow team members.",
+        "text_for_embedding": "User: Kellie Sim. Project: Introduction To Neural Prostheses/Neural Assistive Devices. This project was done under SUTD's Undergraduate Research Opportunities Programme. The aim was to build a research database that would enable the development of a prototype neural prosthesis that can successfully be integrated with the human nervous system through computer and brain interfacing.I conducted a comprehensive literature review on existing neural prostheses, developments in cognitive neuroscience, and cognitive science, identified the limitations or fallacies in existing research, and discussed and reviewed research articles related to the field of study with fellow team members."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "MindBridge",
+        "start_date": "Feb 2023",
+        "description": "This project was part of the CS374 Introduction to Human-Computer Interaction module in KAIST.In this project, the team proposed a Figma prototype aiming to redesign how working adults manage their mental health and wellbeing in their day-to-day lives. I designed user interfaces for the functional and interactive prototype using Figma to allow users to tap on existing social connections to encourage self-care and care for themselves like they would a virtual pet.",
+        "text_for_embedding": "User: Kellie Sim. Project: MindBridge. This project was part of the CS374 Introduction to Human-Computer Interaction module in KAIST.In this project, the team proposed a Figma prototype aiming to redesign how working adults manage their mental health and wellbeing in their day-to-day lives. I designed user interfaces for the functional and interactive prototype using Figma to allow users to tap on existing social connections to encourage self-care and care for themselves like they would a virtual pet."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Privacy Preservation Project",
+        "start_date": "Feb 2023",
+        "description": "This project was done as part of research in NCLab, a ubiquitous computing research lab under the supervision of Professor Junehwa Song in KAIST.In this project, I developed an Android application that aims to preserve the privacy of visually impaired people while others assist them in tasks. This application also utilised GPT-3.5 APIs to aid the censoring of sensitive information.",
+        "text_for_embedding": "User: Kellie Sim. Project: Privacy Preservation Project. This project was done as part of research in NCLab, a ubiquitous computing research lab under the supervision of Professor Junehwa Song in KAIST.In this project, I developed an Android application that aims to preserve the privacy of visually impaired people while others assist them in tasks. This application also utilised GPT-3.5 APIs to aid the censoring of sensitive information."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Sterile Instrument Transporter",
+        "start_date": "Feb 2023",
+        "description": "This project was part of the CS470 Introduction to Artificial Intelligence module in KAIST.In this project, we developed a proof-of-concept robot to fully automate the distribution of sterilised medical instruments and the sterilisation visual checks in medical facilities. We utilised SLAM for mapping of hospital blueprint, navigation algorithms for transportation of sterile instruments from central sterile services departments to clinics, and anomaly and object detection to scan peel pouches to automate checking of received inventories.",
+        "text_for_embedding": "User: Kellie Sim. Project: Sterile Instrument Transporter. This project was part of the CS470 Introduction to Artificial Intelligence module in KAIST.In this project, we developed a proof-of-concept robot to fully automate the distribution of sterilised medical instruments and the sterilisation visual checks in medical facilities. We utilised SLAM for mapping of hospital blueprint, navigation algorithms for transportation of sterile instruments from central sterile services departments to clinics, and anomaly and object detection to scan peel pouches to automate checking of received inventories."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "A Study on the Effects of Bold and Italics on the Memory of University Students",
+        "start_date": "May 2022",
+        "description": "This project was part of the 02.145TS Surveys and Experiments in the Social Sciences module in SUTD.As part of this project, I conducted literature review to understand relevant related theories, and conceptualised and prepared materials for the experiment. The team conducted an experimental study with 25 participants to determine if participants\u2019 comprehension accuracy would be affected by bolding and italics of English passages.",
+        "text_for_embedding": "User: Kellie Sim. Project: A Study on the Effects of Bold and Italics on the Memory of University Students. This project was part of the 02.145TS Surveys and Experiments in the Social Sciences module in SUTD.As part of this project, I conducted literature review to understand relevant related theories, and conceptualised and prepared materials for the experiment. The team conducted an experimental study with 25 participants to determine if participants\u2019 comprehension accuracy would be affected by bolding and italics of English passages."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Online Hate Speech Detection",
+        "start_date": "May 2022",
+        "description": "Online Hate Speech DetectionThis project was part of the 50.007 Machine Learning module. In this project, we were required to train a variety of machine learning models for online hate speech classification. A competition was held on Kaggle amongst all students taking the course, and our group emerged top of the private leaderboard (80% of test data). Various machine learning methods and other techniques to improve model performance, especially those that were not taught in the course, were attempted. We also conducted extensive hyperparameter tuning to improve model performance.Our best performing model was the CatBoost Classifier, with an accuracy of 72.399%. Other models tried were: Random Forest Classifier with PCA, Grid Search and Adaboost, Bernoulli Naive Bayes, Support Vector Machine, Naive Bayes Support Vector Machine, Logistic Regression, LightGBM and XGBoost.",
+        "text_for_embedding": "User: Kellie Sim. Project: Online Hate Speech Detection. Online Hate Speech DetectionThis project was part of the 50.007 Machine Learning module. In this project, we were required to train a variety of machine learning models for online hate speech classification. A competition was held on Kaggle amongst all students taking the course, and our group emerged top of the private leaderboard (80% of test data). Various machine learning methods and other techniques to improve model performance, especially those that were not taught in the course, were attempted. We also conducted extensive hyperparameter tuning to improve model performance.Our best performing model was the CatBoost Classifier, with an accuracy of 72.399%. Other models tried were: Random Forest Classifier with PCA, Grid Search and Adaboost, Bernoulli Naive Bayes, Support Vector Machine, Naive Bayes Support Vector Machine, Logistic Regression, LightGBM and XGBoost."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "TransferConnect",
+        "start_date": "May 2022",
+        "description": "This project was part of the 50.003 Elements of Software Construction module. TransferConnect acts as the middleman to facilitate the transfer and conversion of loyalty points from bank transactions, between participating loyalty programs and banks. For this project, we worked with Ascenda Loyalty.This project focuses on the development of a back-end API server and database for TransferConnect, as well as a front-end bank app to demonstrate the end-to-end workflow.Extensive testing for both the front-end and back-end and fuzzing were also implemented to ensure the proper functioning of the entire system. The system was implemented with the MERN stack.I developed the front-end bank app using React and Ant Design Pro, and wrote some simple front-end tests in Selenium. Express.js was also used to allow the front-end bank app to receive webhook notifications for transaction status updates. Express.js and Node.js were used in the development of the back-end API server. MongoDB was used in the development of the database. Jest was used for unit testing of the back-end.",
+        "text_for_embedding": "User: Kellie Sim. Project: TransferConnect. This project was part of the 50.003 Elements of Software Construction module. TransferConnect acts as the middleman to facilitate the transfer and conversion of loyalty points from bank transactions, between participating loyalty programs and banks. For this project, we worked with Ascenda Loyalty.This project focuses on the development of a back-end API server and database for TransferConnect, as well as a front-end bank app to demonstrate the end-to-end workflow.Extensive testing for both the front-end and back-end and fuzzing were also implemented to ensure the proper functioning of the entire system. The system was implemented with the MERN stack.I developed the front-end bank app using React and Ant Design Pro, and wrote some simple front-end tests in Selenium. Express.js was also used to allow the front-end bank app to receive webhook notifications for transaction status updates. Express.js and Node.js were used in the development of the back-end API server. MongoDB was used in the development of the database. Jest was used for unit testing of the back-end."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "A Study on the Effects of Lo-Fi Music on the Ability to Recall Information",
+        "start_date": "Jan 2022",
+        "description": "This project was part of the 02.218 Introduction to Psychology module in SUTD.As part of this project, I conducted literature review to understand relevant related theories, and conceptualised and prepared materials for the experiment. The team conducted an experimental study with 40 participants to determine if context specificity would affect participants\u2019 ability to recall and the number of errors in memory reconstruction.",
+        "text_for_embedding": "User: Kellie Sim. Project: A Study on the Effects of Lo-Fi Music on the Ability to Recall Information. This project was part of the 02.218 Introduction to Psychology module in SUTD.As part of this project, I conducted literature review to understand relevant related theories, and conceptualised and prepared materials for the experiment. The team conducted an experimental study with 40 participants to determine if context specificity would affect participants\u2019 ability to recall and the number of errors in memory reconstruction."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Pick Before Go",
+        "start_date": "Jan 2022",
+        "description": "This project was part of the 50.001 Information Systems & Programming module.Tired of going to Pick & GO only to find out that the item you want to buy is out of stock? Want to stay updated on promotions of the most popular items? Introducing the Pick Before Go app, a revamped user experience where users can get the most out of their Pick & GO experience. Opening the app brings you to our home screen, with the classic QR code for entry and a promotion carousel to view the current promotions in store. To browse through the product catalogue on your way to Pick & GO, simply use the search bar in the app to search for any product and tap on it. Not only will you be able to see its availability, you will also get to see a short description about it! You can even favourite items for quick access.But Pick & GO wouldn\u2019t survive without the operational staff restocking the items everyday. With special administrator privileges, staff can also use the app as an inventory tool for operational tasks such as updating the promotions and availability of items. They can also easily add a new product if needed!With Pick Before Go, shopping at Pick & GO has never been easier and fuss-free!GitHub Link: https://github.com/kelliesyhh/SUTD-CSD-Term4-50.001-1DProject-PickBeforeGo",
+        "text_for_embedding": "User: Kellie Sim. Project: Pick Before Go. This project was part of the 50.001 Information Systems & Programming module.Tired of going to Pick & GO only to find out that the item you want to buy is out of stock? Want to stay updated on promotions of the most popular items? Introducing the Pick Before Go app, a revamped user experience where users can get the most out of their Pick & GO experience. Opening the app brings you to our home screen, with the classic QR code for entry and a promotion carousel to view the current promotions in store. To browse through the product catalogue on your way to Pick & GO, simply use the search bar in the app to search for any product and tap on it. Not only will you be able to see its availability, you will also get to see a short description about it! You can even favourite items for quick access.But Pick & GO wouldn\u2019t survive without the operational staff restocking the items everyday. With special administrator privileges, staff can also use the app as an inventory tool for operational tasks such as updating the promotions and availability of items. They can also easily add a new product if needed!With Pick Before Go, shopping at Pick & GO has never been easier and fuss-free!GitHub Link: https://github.com/kelliesyhh/SUTD-CSD-Term4-50.001-1DProject-PickBeforeGo"
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Triangular Peg Solitaire",
+        "start_date": "Jan 2022",
+        "description": "This project was part of the 50.002 Computation Structures module. Peg Solitaire is a single-player strategy puzzle game that challenges your spatial and logical reasoning skills. Despite its seemingly simple set-up and rules, the game has racked the brains and brought entertainment to many since the 17th century.We have implemented the 15-holes triangle configuration of the Peg Solitaire game. The objective of the game is to eliminate pegs until there is only one peg left on the board. To remove pegs, you can jump over an adjacent peg into an empty hole, removing the adjacent peg.With 6816 solutions to the game, our game breaks down the original Triangular Peg Solitaire game into 3 levels of increasing difficulty. While attempting level 1 (3 starting pegs) and level 2 (7 starting pegs), you can learn the rules of the game and come up with your own strategies. You will then progress to the full version of the game in level 3 (14 starting pegs).3 colours are used to provide instant visual feedback. A blue light indicates remaining pegs, a green light indicates the peg currently selected, and a red light indicates the valid holes you can jump into. Unlit LEDs simply indicate a hole.GitHub Link: https://github.com/kelliesyhh/50002-1D-ALU",
+        "text_for_embedding": "User: Kellie Sim. Project: Triangular Peg Solitaire. This project was part of the 50.002 Computation Structures module. Peg Solitaire is a single-player strategy puzzle game that challenges your spatial and logical reasoning skills. Despite its seemingly simple set-up and rules, the game has racked the brains and brought entertainment to many since the 17th century.We have implemented the 15-holes triangle configuration of the Peg Solitaire game. The objective of the game is to eliminate pegs until there is only one peg left on the board. To remove pegs, you can jump over an adjacent peg into an empty hole, removing the adjacent peg.With 6816 solutions to the game, our game breaks down the original Triangular Peg Solitaire game into 3 levels of increasing difficulty. While attempting level 1 (3 starting pegs) and level 2 (7 starting pegs), you can learn the rules of the game and come up with your own strategies. You will then progress to the full version of the game in level 3 (14 starting pegs).3 colours are used to provide instant visual feedback. A blue light indicates remaining pegs, a green light indicates the peg currently selected, and a red light indicates the valid holes you can jump into. Unlit LEDs simply indicate a hole.GitHub Link: https://github.com/kelliesyhh/50002-1D-ALU"
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Expressive Avatars To Reduce Social Anxiety In Therapy",
+        "start_date": "May 2021",
+        "description": "This project was done under SUTD's Undergraduate Research Opportunities Programme. This project aimed to realise avatar interaction as a viable alternative medium to deliver psychotherapy intervention.I assisted in the setting up and participation of a research study involving two 30 minute interactions with a counsellor, one with an avatar and one without an avatar. I was able to put myself in the shoes of both the researcher and research subject through this process.As part of the research process, I learnt statistical analysis tools such as JMP for data analysis in 4 weeks. This was coupled with my research on the scientific and technological aspects of Heart Rate Variability (HRV) measurement softwares to understand the biological/physiological relations to HRV as well as the scientific concepts behind the various calculations.",
+        "text_for_embedding": "User: Kellie Sim. Project: Expressive Avatars To Reduce Social Anxiety In Therapy. This project was done under SUTD's Undergraduate Research Opportunities Programme. This project aimed to realise avatar interaction as a viable alternative medium to deliver psychotherapy intervention.I assisted in the setting up and participation of a research study involving two 30 minute interactions with a counsellor, one with an avatar and one without an avatar. I was able to put myself in the shoes of both the researcher and research subject through this process.As part of the research process, I learnt statistical analysis tools such as JMP for data analysis in 4 weeks. This was coupled with my research on the scientific and technological aspects of Heart Rate Variability (HRV) measurement softwares to understand the biological/physiological relations to HRV as well as the scientific concepts behind the various calculations."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Computational Tool for Biomedical Data Analysis",
+        "start_date": "May 2021",
+        "description": "This project was done under SUTD's Undergraduate Research Opportunities Programme. The project aimed to utilise machine learning to predict cardiac health from input data such as patient demographics, metabolomics data and exercises.A comprehensive literature review on existing projects involving machine learning in cardiac health was done over a period of 3 months to understand the current market and existing solutions. Following that, extensive pre-processing of the given dataset of 90 data points was conducted over a 3 week period. I used the multi-layer perception neural network to predict patients\u2019 cardiac health with their demographics and current health conditions as predictor variables. Approximately 75% accuracy was achieved.",
+        "text_for_embedding": "User: Kellie Sim. Project: Computational Tool for Biomedical Data Analysis. This project was done under SUTD's Undergraduate Research Opportunities Programme. The project aimed to utilise machine learning to predict cardiac health from input data such as patient demographics, metabolomics data and exercises.A comprehensive literature review on existing projects involving machine learning in cardiac health was done over a period of 3 months to understand the current market and existing solutions. Following that, extensive pre-processing of the given dataset of 90 data points was conducted over a 3 week period. I used the multi-layer perception neural network to predict patients\u2019 cardiac health with their demographics and current health conditions as predictor variables. Approximately 75% accuracy was achieved."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Patient Output Inspection with AI",
+        "start_date": "May 2020",
+        "description": "Took up a project under SUTD's Undergraduate Research Opportunities Programme (UROP) in May 2020 prior to my first term in SUTD. The main aim of the project was to design AI and machine learning and image processing algorithm to perform automatic patient output inspection. All in all, I learnt how to implement Transfer Learning models, explored different methods for texture classification and got to see firsthand how AI could be used in healthcare fields other than diagnostics.",
+        "text_for_embedding": "User: Kellie Sim. Project: Patient Output Inspection with AI. Took up a project under SUTD's Undergraduate Research Opportunities Programme (UROP) in May 2020 prior to my first term in SUTD. The main aim of the project was to design AI and machine learning and image processing algorithm to perform automatic patient output inspection. All in all, I learnt how to implement Transfer Learning models, explored different methods for texture classification and got to see firsthand how AI could be used in healthcare fields other than diagnostics."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "SUTD Term 1 Simulator",
+        "start_date": "Sep 2020",
+        "description": "This game was designed for the 1D project component of the 10.014 Computational Thinking for Design module.This game takes the user through a series of scenarios, simulating a Freshmore student\u2019s life through Term 1. At the start, the user is randomly assigned a character. While all characters have 4 attributes (Health, Money, Social and Intelligence), the initial values of each of these attributes are dependent on the assigned character. Throughout the game, in each scenario, the user\u2019s responses determine the final values of their attributes. Once the game is run, the name of the assigned character, attributes and their respective values are displayed on the top right corner of the screen.A scenario is marked as such when the user is prompted with a question on screen, and is required to input their choice through the pop-up input box. As mentioned above, the attribute values are updated based on the user\u2019s choice. Some of the choices will result in the activation of mini-games, which serve as bonus opportunities to boost the user\u2019s attribute values. If the values of any attributes fall below 0 points, a particular set of revival questions will be activated, allowing the user to continue with the game if they meet certain conditions (e.g. having a certain other attribute value to be more than half of the initial attribute value). Should the user fail these revival conditions, they will be considered dead and the game will be over. At the end of the game, the user\u2019s attribute values will be displayed on the screen, acting as a gauge of the user\u2019s decision making skills.The main objective of the game is to not die before the final question pops up. Ideally, the user should have a balanced set of attribute values, showing that he/she is an all-rounded individual that is healthy, financially stable, decently sociable, and equipped with the right skills (i.e. high intelligence).This game was inspired by games like Reigns and \u200bEpisode\u200b / \u200bChoices\u200b.",
+        "text_for_embedding": "User: Kellie Sim. Project: SUTD Term 1 Simulator. This game was designed for the 1D project component of the 10.014 Computational Thinking for Design module.This game takes the user through a series of scenarios, simulating a Freshmore student\u2019s life through Term 1. At the start, the user is randomly assigned a character. While all characters have 4 attributes (Health, Money, Social and Intelligence), the initial values of each of these attributes are dependent on the assigned character. Throughout the game, in each scenario, the user\u2019s responses determine the final values of their attributes. Once the game is run, the name of the assigned character, attributes and their respective values are displayed on the top right corner of the screen.A scenario is marked as such when the user is prompted with a question on screen, and is required to input their choice through the pop-up input box. As mentioned above, the attribute values are updated based on the user\u2019s choice. Some of the choices will result in the activation of mini-games, which serve as bonus opportunities to boost the user\u2019s attribute values. If the values of any attributes fall below 0 points, a particular set of revival questions will be activated, allowing the user to continue with the game if they meet certain conditions (e.g. having a certain other attribute value to be more than half of the initial attribute value). Should the user fail these revival conditions, they will be considered dead and the game will be over. At the end of the game, the user\u2019s attribute values will be displayed on the screen, acting as a gauge of the user\u2019s decision making skills.The main objective of the game is to not die before the final question pops up. Ideally, the user should have a balanced set of attribute values, showing that he/she is an all-rounded individual that is healthy, financially stable, decently sociable, and equipped with the right skills (i.e. high intelligence).This game was inspired by games like Reigns and \u200bEpisode\u200b / \u200bChoices\u200b."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "An Intelligent App that Cares for Your Mental Wellbeing / SG@Love App",
+        "start_date": "May 2020",
+        "description": "For Lion's Lair 2020, my team was one of 3 finalists. We pitched a remote and mobile assessment of mental health conditions since the psychological effects of COVID-19 have been felt and seen both globally and within Singapore. We developed a healthcare delivery system (through a mobile application) which is accessible not just to those with mental health conditions, but also to those who have never seen a psychiatrist before. We aimed to develop the first level of support for those who have mental health conditions and ease the burden on the already strained healthcare infrastructure.Through using a chatbot module, we allow for a conversational agent to be readily available for consultation. Utilising the National Speech Corpus developed by IMDA would increase the accuracy of the chatbot for locally accented English, thereby improving user engagement.Through the use of emerging technology such as AI, multiple modes of assessment can be offered to users, (eg: speech detection through audio recordings, image recognition, text detection).The app can also incorporate collective intelligence, leveraging on the collaborative efforts of users by gathering anonymous data regarding their mental states. This data can act as an enabler for many analytical applications, and can be harnessed to produce a public map of affected people. Governmental and mental healthcare institutions, can then utilise the map to identify hotspots for intervention, and to understand the mental status of the general populace.https://chiinnovate2020.klobbi.com/lionslair",
+        "text_for_embedding": "User: Kellie Sim. Project: An Intelligent App that Cares for Your Mental Wellbeing / SG@Love App. For Lion's Lair 2020, my team was one of 3 finalists. We pitched a remote and mobile assessment of mental health conditions since the psychological effects of COVID-19 have been felt and seen both globally and within Singapore. We developed a healthcare delivery system (through a mobile application) which is accessible not just to those with mental health conditions, but also to those who have never seen a psychiatrist before. We aimed to develop the first level of support for those who have mental health conditions and ease the burden on the already strained healthcare infrastructure.Through using a chatbot module, we allow for a conversational agent to be readily available for consultation. Utilising the National Speech Corpus developed by IMDA would increase the accuracy of the chatbot for locally accented English, thereby improving user engagement.Through the use of emerging technology such as AI, multiple modes of assessment can be offered to users, (eg: speech detection through audio recordings, image recognition, text detection).The app can also incorporate collective intelligence, leveraging on the collaborative efforts of users by gathering anonymous data regarding their mental states. This data can act as an enabler for many analytical applications, and can be harnessed to produce a public map of affected people. Governmental and mental healthcare institutions, can then utilise the map to identify hotspots for intervention, and to understand the mental status of the general populace.https://chiinnovate2020.klobbi.com/lionslair"
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Fast Prototyping",
+        "start_date": "May 2019",
+        "description": "During my internship at A*STAR's Institute for Infocomm Research, I developed a web application to enable evaluations of novel language technologies for improving workflow efficiencies in a hospital telehealth setting.The web application was built with React and Flask. React is a JavaScript library for building user interfaces that is maintained by Facebook and a community of individual developers and companies. Flask is a micro web framework written in Python that does not require particular tools or libraries. The design of the web application was made possible with Ant Design, a React UI library that contains a set of high-quality components and demos for building rich, interactive user interfaces. The database used for this project was Google Firebase.The web application consisted of 2 components: speech data component and structured data component. For the speech data component, users can submit a transcription of audio files (of a nurse-patient dialogue) in text format to be processed using the LSTM model. The results of the model will be displayed in a table. Users can also play audio files from a dropdown list and search for a specific word and display the sentence in which the word appears. For the structured data component, users can either enter structured data into 2 dataframes or upload files from their local directory. This will be processed by a machine learning model, and the results will be displayed in a table highlighting the most important feature and a time-series line graph showing risk levels.",
+        "text_for_embedding": "User: Kellie Sim. Project: Fast Prototyping. During my internship at A*STAR's Institute for Infocomm Research, I developed a web application to enable evaluations of novel language technologies for improving workflow efficiencies in a hospital telehealth setting.The web application was built with React and Flask. React is a JavaScript library for building user interfaces that is maintained by Facebook and a community of individual developers and companies. Flask is a micro web framework written in Python that does not require particular tools or libraries. The design of the web application was made possible with Ant Design, a React UI library that contains a set of high-quality components and demos for building rich, interactive user interfaces. The database used for this project was Google Firebase.The web application consisted of 2 components: speech data component and structured data component. For the speech data component, users can submit a transcription of audio files (of a nurse-patient dialogue) in text format to be processed using the LSTM model. The results of the model will be displayed in a table. Users can also play audio files from a dropdown list and search for a specific word and display the sentence in which the word appears. For the structured data component, users can either enter structured data into 2 dataframes or upload files from their local directory. This will be processed by a machine learning model, and the results will be displayed in a table highlighting the most important feature and a time-series line graph showing risk levels."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Depression Detection using Speech Analysis (Mobile App)",
+        "start_date": "Oct 2018",
+        "description": "Developed an Android application and a web server using Python. Learnt more about mental health and explored how technological advancements could be used in healthcare settings. A deep learning model was used to predict the probability of a user being depressed, while the web server linked the model and application.",
+        "text_for_embedding": "User: Kellie Sim. Project: Depression Detection using Speech Analysis (Mobile App). Developed an Android application and a web server using Python. Learnt more about mental health and explored how technological advancements could be used in healthcare settings. A deep learning model was used to predict the probability of a user being depressed, while the web server linked the model and application."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Mockup of a Eco-Friendly House",
+        "start_date": "Jun 2019",
+        "description": "Interacted with other ASEAN youths while building STEM skills through the development of a mock-up of a house with Micro:bit, sensors, LEDs, cardboard to solve a problem modelled after the United Nations\u2019 Sustainable Development Goals (SDG13). Aimed to solve Philippines\u2019 urban slums problem and introducing renewable energy and recycling and reducing waste habits.",
+        "text_for_embedding": "User: Kellie Sim. Project: Mockup of a Eco-Friendly House. Interacted with other ASEAN youths while building STEM skills through the development of a mock-up of a house with Micro:bit, sensors, LEDs, cardboard to solve a problem modelled after the United Nations\u2019 Sustainable Development Goals (SDG13). Aimed to solve Philippines\u2019 urban slums problem and introducing renewable energy and recycling and reducing waste habits."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "JAVERS: Just A Very Expressive Robot",
+        "start_date": "Mar 2019",
+        "description": "Developed a high-fidelity and low-fidelity prototype of an expressive cleaning robot using Arduino, Raspberry Pi and other electronic components through SUTD's 3-week Compact 3.007 Programme. The robot was targeted at elderly living at home alone and included cognitive games such as tic-tac-toe to prevent the onset of dementia. The low-fidelity prototype design was submitted to A\u2019 Design Award and scored 85/100 for presentation and 5/10 for design.",
+        "text_for_embedding": "User: Kellie Sim. Project: JAVERS: Just A Very Expressive Robot. Developed a high-fidelity and low-fidelity prototype of an expressive cleaning robot using Arduino, Raspberry Pi and other electronic components through SUTD's 3-week Compact 3.007 Programme. The robot was targeted at elderly living at home alone and included cognitive games such as tic-tac-toe to prevent the onset of dementia. The low-fidelity prototype design was submitted to A\u2019 Design Award and scored 85/100 for presentation and 5/10 for design."
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Mockup Application for Lomprayah",
+        "start_date": "Oct 2018",
+        "description": "A mockup of a mobile application was created by 5 Asian youths for Lomprayah (a Thai speedboat company) to improve user experience. The application has features such as a chatbot, 360\u00b0 video, customised tour programs and e-tickets.Was in charge of the chatbot feature, which was made by harnessing AWS Tools, namely Amazon Lex",
+        "text_for_embedding": "User: Kellie Sim. Project: Mockup Application for Lomprayah. A mockup of a mobile application was created by 5 Asian youths for Lomprayah (a Thai speedboat company) to improve user experience. The application has features such as a chatbot, 360\u00b0 video, customised tour programs and e-tickets.Was in charge of the chatbot feature, which was made by harnessing AWS Tools, namely Amazon Lex"
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Arduino system to aid patients with anxiety",
+        "start_date": "Apr 2018",
+        "description": "Developed a system using Arduino and other electronic components such as LEDs, bluetooth modules and speakers to aid breathing movements for patients with anxiety, modelled after the 4-7-8 breathing technique",
+        "text_for_embedding": "User: Kellie Sim. Project: Arduino system to aid patients with anxiety. Developed a system using Arduino and other electronic components such as LEDs, bluetooth modules and speakers to aid breathing movements for patients with anxiety, modelled after the 4-7-8 breathing technique"
+    },
+    {
+        "user_name": "Kellie Sim",
+        "title": "Android application to aid the visually impaired",
+        "start_date": "Oct 2017",
+        "description": "Developed an Android application using MIT App Inventor to aid the visually impaired in day-to-day tasks such as calling contacts, reading out date and time, capturing audio and media",
+        "text_for_embedding": "User: Kellie Sim. Project: Android application to aid the visually impaired. Developed an Android application using MIT App Inventor to aid the visually impaired in day-to-day tasks such as calling contacts, reading out date and time, capturing audio and media"
+    },
+    {
+        "user_name": "Azib Lim",
+        "title": "Dock Schedule Optimisation",
+        "start_date": "Sep 2023",
+        "description": "An industry-based Capstone project with a local shipyard to crystallize my education in SUTD. I helped to design an optimisation algorithm using Python programming as part of an automated dock scheduling system that maximises revenue and dock utilisation, thereby improving efficiency in planning.",
+        "text_for_embedding": "User: Azib Lim. Project: Dock Schedule Optimisation. An industry-based Capstone project with a local shipyard to crystallize my education in SUTD. I helped to design an optimisation algorithm using Python programming as part of an automated dock scheduling system that maximises revenue and dock utilisation, thereby improving efficiency in planning."
+    },
+    {
+        "user_name": "Azib Lim",
+        "title": "Improving Productivity and Efficiency of the Operations Team",
+        "start_date": "Jan 2022",
+        "description": "An industry-initiated project with Rockwell Collins Southeast Asia Pte. Ltd. to analyse and improve the productivity and efficiency of their Operations Team as part of SUTD\u2019s Data and Business Analytics course.",
+        "text_for_embedding": "User: Azib Lim. Project: Improving Productivity and Efficiency of the Operations Team. An industry-initiated project with Rockwell Collins Southeast Asia Pte. Ltd. to analyse and improve the productivity and efficiency of their Operations Team as part of SUTD\u2019s Data and Business Analytics course."
+    },
+    {
+        "user_name": "Azib Lim",
+        "title": "Airport Congestion Delays in the ASEAN Region",
+        "start_date": "May 2021",
+        "description": "A research project led by a SUTD professor to analyse reasons for airport congestion delays in the ASEAN region and predict future delays using machine learning models in Python.",
+        "text_for_embedding": "User: Azib Lim. Project: Airport Congestion Delays in the ASEAN Region. A research project led by a SUTD professor to analyse reasons for airport congestion delays in the ASEAN region and predict future delays using machine learning models in Python."
+    }
+]

@@ -13,7 +13,7 @@ def load_linkedin_data(file_path):
 def process_and_analyze(data):
     """Processes the raw list of dicts into a DataFrame and prints analytics."""
     df = pd.DataFrame(data)
-    df.to_csv('linkedin_profiles.csv', index=False)  # Save raw data for reference
+    df.to_csv('linkedin_profiles_processed.csv', index=False)  # Save raw data for reference
     print(df.head())
     # 1. Feature Extraction: Clean and count nested data
     # Count the number of valid projects per user
@@ -55,6 +55,6 @@ def process_and_analyze(data):
     print(sorted_metrics.to_string())
 
 # Main execution
-file_path = 'linkedin_profiles copy.json'
+file_path = 'linkedin_profiles2 copy.json'
 raw_data = load_linkedin_data(file_path)
 process_and_analyze(raw_data)
