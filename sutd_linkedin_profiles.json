@@ -1,0 +1,34 @@
+[
+    {
+        "url": "https://sg.linkedin.com/in/gabriel-kay-a76039240",
+        "summary": "I attempted to use web_data_linkedin_person_profile for both profiles, but the tool returned an authentication error (HTTP 401: Invalid credentials) for each URL, so I couldn\u2019t retrieve the data.\n\nProfiles:\n- Ray Lai: https://sg.linkedin.com/in/ray-lai-627aaa239 \u2014 fetch failed (401)\n- Gabriel Kay: https://sg.linkedin.com/in/gabriel-kay-a76039240 \u2014 fetch failed (401)\n\nHow would you like to proceed?\n- I can retry later if the credential issue is resolved.\n- I can use a fallback method (public web search/scraping) to extract just their SUTD education and current role.\n- You can paste the relevant profile sections here, and I\u2019ll summarize them."
+    },
+    {
+        "url": "https://sg.linkedin.com/in/dhyeya-anand-b839b2266",
+        "summary": "I attempted to use web_data_linkedin_person_profile for https://sg.linkedin.com/in/dhyeya-anand-b839b2266, but the tool returned an authentication error (HTTP 401: Invalid credentials), so I couldn\u2019t retrieve the profile.\n\nWould you like me to:\n- Retry later once the credential issue is resolved, or\n- Use a fallback (e.g., LinkedIn people search or public web search) to extract just their SUTD education and current role, or\n- You can paste the relevant profile sections here and I\u2019ll summarize them?"
+    },
+    {
+        "url": "https://sg.linkedin.com/in/adikum",
+        "summary": "I tried using web_data_linkedin_person_profile for https://sg.linkedin.com/in/adikum (also tried the www.linkedin.com variant), but the tool returned an authentication error (HTTP 401: Invalid credentials), so I couldn\u2019t retrieve the profile.\n\nWould you like me to:\n- Retry later once the credential issue is resolved, or\n- Use a fallback (e.g., LinkedIn people search/public web search) to extract their SUTD education and role, or\n- You can paste the relevant profile sections here and I\u2019ll summarize them?"
+    },
+    {
+        "url": "https://sg.linkedin.com/in/ayra-mohammed-a920742a3",
+        "summary": "I attempted to use web_data_linkedin_person_profile for https://sg.linkedin.com/in/ayra-mohammed-a920742a3 (also tried the www.linkedin.com variant), but the tool returned an authentication error (HTTP 401: Invalid credentials), so I couldn\u2019t retrieve the profile.\n\nHow would you like to proceed?\n- Retry later once the credential issue is resolved.\n- Use a fallback (e.g., public web search) to extract just their SUTD education and current role.\n- Paste the relevant profile sections here and I\u2019ll summarize them."
+    },
+    {
+        "url": "https://sg.linkedin.com/in/kelliesim",
+        "summary": "I attempted to use web_data_linkedin_person_profile for:\n- https://sg.linkedin.com/in/kelliesim\n- https://www.linkedin.com/in/kelliesim\n\nBoth returned an authentication error (HTTP 401: Invalid credentials), so I couldn\u2019t retrieve the profile.\n\nHow would you like to proceed?\n- Retry later once the credential issue is resolved.\n- Use a fallback (e.g., public web search or LinkedIn people search) to extract their SUTD education and current role.\n- Paste the relevant profile sections here and I\u2019ll summarize them."
+    },
+    {
+        "url": "https://sg.linkedin.com/in/shuenn-yuen-han-60a467261",
+        "summary": "I tried using web_data_linkedin_person_profile for:\n- https://sg.linkedin.com/in/shuenn-yuen-han-60a467261\n- https://www.linkedin.com/in/shuenn-yuen-han-60a467261\n\nBoth returned HTTP 401 (Invalid credentials), so I couldn\u2019t retrieve the profile.\n\nHow would you like to proceed?\n- Retry later once the credential issue is resolved.\n- Authorize a fallback (e.g., LinkedIn people search or public web search) to extract their SUTD education and current role.\n- Paste the relevant profile sections here and I\u2019ll summarize them."
+    },
+    {
+        "url": "https://sg.linkedin.com/in/anna-rica-sawit",
+        "summary": "I attempted to use web_data_linkedin_person_profile for:\n- https://sg.linkedin.com/in/anna-rica-sawit\n- https://www.linkedin.com/in/anna-rica-sawit\n\nBoth returned HTTP 401 (Invalid credentials), so I couldn\u2019t retrieve the profile.\n\nHow would you like to proceed?\n- Retry later once the credential issue is resolved.\n- Use a fallback (e.g., LinkedIn people search/public web search) to extract just their SUTD education and current role.\n- Paste the relevant profile sections here and I\u2019ll summarize them."
+    },
+    {
+        "url": "https://sg.linkedin.com/in/jatlysonang",
+        "summary": "I tried using web_data_linkedin_person_profile for:\n- https://sg.linkedin.com/in/jatlysonang\n- https://www.linkedin.com/in/jatlysonang\n\nBoth returned HTTP 401 (Invalid credentials), so I couldn\u2019t retrieve the profile to summarize their SUTD education and role.\n\nOptions:\n- Retry later once the tool credentials are fixed.\n- I can try a fallback (e.g., LinkedIn people search or public web search) to find just their SUTD education and current role.\n- You can paste the relevant sections here and I\u2019ll summarize them."
+    }
+]
