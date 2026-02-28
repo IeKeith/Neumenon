@@ -1,0 +1,4 @@
+mcp
+openai
+requests
+google-adk
