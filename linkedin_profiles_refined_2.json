@@ -1,0 +1,643 @@
+[
+    {
+        "name": "Susiwati Ta",
+        "projects": [
+            {
+                "title": "Undergraduate Research Opportunity Programme - Urban Planning in Solo, Indonesia (City Form Lab)",
+                "start_date": "Sep 2013",
+                "description": "The project involved conducting surveys of businesses in Solo, Indonesia to analyze the location patterns of semi-formal commerce. Utilizing QGIS for digitizing maps, the team of eight members effectively visualized and analyzed spatial data to enhance understanding of urban planning dynamics."
+            }
+        ]
+    },
+    {
+        "name": "Zhou Zhi",
+        "projects": [
+            {
+                "title": "Air Transportation Visualization",
+                "start_date": "Dec 2018",
+                "description": "The project implements Cesium.js to create a comprehensive visualization of global air traffic volumes around various airports. By leveraging this data visualization framework, it effectively highlights traffic density and offers insights into potential aviation routes and planning."
+            },
+            {
+                "title": "Hotel Demand Forecast",
+                "start_date": "Aug 2018",
+                "description": "The project implements a comprehensive hotel demand forecasting system by integrating data from the Singapore Tourism Board (STB) and additional sources obtained through Python-based web scraping of Airbnb data. Utilizing SQLite for data consolidation and R for predictive modeling, the system forecasts the occupancy of both gazetted and non-gazetted hotels, distinguishing between international and domestic visitors. The final output is an interactive JavaScript visualization that provides a detailed breakdown of overall room demand, enabling precise business decision-making."
+            },
+            {
+                "title": "Visual Design of the Comprehensive Intelligent Large screen",
+                "start_date": "May 2018",
+                "description": "The project implements a large-screen visualization system for the Bank of Beijing's Nanjing branch, designed to transform complex data sets into intuitive visual formats. Developed under the guidance of CADCG, this system leverages big data analytics to enable bank leaders and business analysts to identify trends and insights from extensive data volumes."
+            },
+            {
+                "title": "Construct A Physical Model of Traffic Flows",
+                "start_date": "Jan 2017",
+                "description": "The project implements a virtual simulation using the Qt engine and Box2D to model the stoppage of up to six vehicles in response to the sudden appearance of wild animals on the road. It evaluates the feasibility of replicating real-world traffic scenarios within a virtual environment, providing insights into traffic flow dynamics and safety measures."
+            }
+        ]
+    },
+    {
+        "name": "Aditya Kumar",
+        "projects": [
+            {
+                "title": "Product Design Studio - EV interior",
+                "start_date": "Jan 2023",
+                "description": "The project, conducted in collaboration with the EV team at the Singapore University of Technology and Design (SUTD), focused on designing an electric vehicle interior that enhances ease of entry and exit while seamlessly integrating advanced technology and aesthetics. Key technical achievements include the development of a user-friendly steering wheel, dashboard, and back screens, which collectively improve functionality and the overall driving experience."
+            },
+            {
+                "title": "AI Applications in Design - Finding design",
+                "start_date": "Feb 2023",
+                "description": "The project employs web scraping, APIs such as Reddit and YouTube, and machine learning tools like sentiment analysis and Zero Shot classification to identify design flaws in the Nothing Phone One. By integrating ChatGPT via the OpenAI API, it provides comparative insights against competitors, offering data-driven solutions to enhance design."
+            },
+            {
+                "title": "03.007 Design Thinking Project - Xplanade",
+                "start_date": "Jan 2022",
+                "description": "The project implements a geodesic dome near Changi City Point to address post-COVID social interaction challenges by providing a sheltered, inclusive space for community engagement. Utilizing design thinking principles, the structure fosters social well-being and reconnection during peak hours. This initiative is part of the 03.007 Design Thinking module."
+            }
+        ]
+    },
+    {
+        "name": "Anna Rica Sawit",
+        "projects": [
+            {
+                "title": "ALIVE Project (Tan Tock Seng Hospital Project Collaboration) \u2013 Endless Runner Game",
+                "start_date": "Sep 2021",
+                "description": "The ALIVE Project, a collaboration with Singapore's Tan Tock Seng Hospital, developed an educational endless runner game designed to inform adults about bacteria and viruses. The game features a module where players engage with stationary bacteria and virus enemies, utilizing a diverse array of game characters to enhance learning about self-protection against pathogens."
+            },
+            {
+                "title": "Game User Experience Research \u2013 Rhythm Warrior: The Lost Jukebox",
+                "start_date": "Jan 2022",
+                "description": "The project investigates user experiences in adventure and endless runner games among teenagers, compiling insights into a comprehensive set of PowerPoint slides. It incorporates these findings into a detailed Game Design Document for \"Rhythm Warrior: The Lost Jukebox,\" a stage-based runner game concept, as part of a school assignment."
+            },
+            {
+                "title": "Pitch Document: Gameplay \u2013 Crossy Road & Om Nom: Run",
+                "start_date": "Apr 2021",
+                "description": "The project involves a comparative analysis of two mobile games, Crossy Road and Om Nom: Run, conducted as part of a school assignment. The research findings were documented using Microsoft PowerPoint, and a paper prototype of Om Nom: Run was developed online using the Marvel App to explore potential gameplay enhancements."
+            }
+        ]
+    },
+    {
+        "name": "Ray Lai",
+        "projects": [
+            {
+                "title": "agentic product researcher",
+                "start_date": "Apr 2025",
+                "description": "The project implements an AI-powered product research tool utilizing Retrieval-Augmented Generation (RAG) and AI Agents to analyze product images and generate actionable insights. By embedding official product manuals into a vector database and integrating user feedback, the system provides targeted design improvement suggestions. Developed as a proof-of-concept prototype, the tool executes end-to-end from app.py, though it requires further refinement to address existing bugs."
+            }
+        ]
+    },
+    {
+        "name": "Chang Su",
+        "projects": [
+            {
+                "title": "Final Year Capstone Project: QueueCraft - Digital Twin Framework Development for Home Team Operations with Home Team Science and Technology Agency (HTX)",
+                "start_date": "Sep 2023",
+                "description": "The project develops QueueCraft, a digital twin framework for simulating physical queuing processes in immigration halls, in collaboration with the Home Team Science and Technology Agency (HTX). It integrates a Person Re-Identification Method using an Omni-Scale Network model in Python for cross-camera recognition and a Discrete-Event Simulation model to replicate live queuing and service processes, providing real-time data on queue lengths and customer service metrics. These components are combined to enhance monitoring and optimization of queuing patterns, demonstrated to HTX through a presentation and poster showcase."
+            },
+            {
+                "title": "Term Project: Advanced Topics in Stochastic Model - Use of Regenerative Simulation Method for Staffing Call Centers",
+                "start_date": "Sep 2023",
+                "description": "The project employs the regenerative simulation method to optimize call center staffing by determining regeneration epochs for simulating customer arrivals, service, and departures using Python and the SimPy framework. It calculates the expected minimum number of agents required in steady-state, ensuring compliance with constraints on customer abandonment probability and average wait time, thereby achieving optimal staffing levels."
+            },
+            {
+                "title": "Term Project: Simulation Modelling and Analysis\u200b Project - Restaurant Simulation",
+                "start_date": "Jan 2023",
+                "description": "The project employs draw.io to visualize the restaurant's simulation flow, encompassing the Pre-Ordering, Kitchen, and Eating Phases, for subsequent implementation in JaamSim software. By dynamically simulating the event graph, the project calculates average customer queueing times, revealing that adjustments in customer interarrival, cooking, eating, and cashier service times can optimize queuing efficiency. This simulation analysis, supported by JaamSim and Excel, effectively identifies strategies to enhance restaurant operations."
+            },
+            {
+                "title": "Term Project: Educational Game for Optimal Stocking Plan - Supermarket Mania",
+                "start_date": "May 2022",
+                "description": "The project implements an educational inventory game web application using R Programming Language and R Shiny, designed to optimize product-selling profit over a simulated 7-day period. It calculates accumulated profit, as well as daily leftover and shortage quantities for each product, and visualizes these metrics through graphs to analyze player performance. The game functions and outcomes were demonstrated to professors and classmates via code and a YouTube video, highlighting the project's procedures and significance."
+            },
+            {
+                "title": "Data Analysis Term Project with Outside-school Company",
+                "start_date": "Jan 2022",
+                "description": "The project involved collaborating with Patrick Dental Ceramic Arts Pte. Ltd. to analyze their data using SQL for data processing and Tableau for visualization, focusing on metrics such as product redo rates. The analysis provided insights into the company's operational status, which were communicated through a poster and presentation, effectively addressing the client's expectations and enhancing their understanding of current business conditions."
+            },
+            {
+                "title": "Team Project: Airport Congestion Delays in the ASEAN Region",
+                "start_date": "May 2021",
+                "description": "The project implements machine learning models using the SciKit-Learn library in Python to analyze airport congestion delays in the ASEAN region. It identifies significant factors influencing delays by plotting variable importance bar charts and evaluates model performance through R\u00b2 and adjusted R\u00b2 metrics to determine the optimal model for each airport. This work was recognized with the Best Poster Prize at SUTD\u2019s annual Learning Celebration Carnival 2021."
+            },
+            {
+                "title": "Team Project: Design Thinking and Innovation: Troll-O Speed-O",
+                "start_date": "Jan 2021",
+                "description": "The project develops an innovative trolley system designed to enhance tray-return efficiency in hawker centers by providing increased space and enabling diners to sort trays and utensils independently. It incorporates a hands-free braking mechanism to facilitate ease of use for elderly cleaners. This design thinking and innovation module addresses ergonomic and operational challenges in tray-return processes."
+            }
+        ]
+    },
+    {
+        "name": "Dhyeya Anand",
+        "projects": [
+            {
+                "title": "6-DoF robotic arm with integrated vision",
+                "start_date": "Mar 2025",
+                "description": "The project implements a 6-DoF robotic arm integrated with a vision system to assist individuals with eating difficulties. Utilizing advanced robotics frameworks, the system enhances precision and adaptability in handling various food items. This module focuses on improving the quality of life for users by automating the feeding process through sophisticated sensor and actuator coordination."
+            },
+            {
+                "title": "Pen Plotter",
+                "start_date": "Oct 2022",
+                "description": "The project implements a robotic pen plotter designed to accurately reproduce digital images, including drawings and photographs, sourced from online platforms. Utilizing advanced image processing algorithms and precise motor control systems, the robot translates digital data into physical art with high fidelity. This module addresses the challenge of converting complex digital imagery into tangible outputs through automated plotting technology."
+            },
+            {
+                "title": "Filastruder",
+                "description": "The project develops a Filastruder system designed to recycle plastic into filament by ensuring stable melting processes that prevent damage to internal electronics. It focuses on optimizing the thermal management and mechanical components to maintain consistent filament quality. This initiative addresses the challenge of sustainable plastic recycling in a controlled environment."
+            }
+        ]
+    },
+    {
+        "name": "Ayra Mohammed",
+        "projects": [
+            {
+                "title": "Visitor ship Forecasting for Mandai Wildlife Group (Data & Business Analytics Course)",
+                "start_date": "Jan 2025",
+                "description": "The project processes and analyzes historical visitor data using Excel and Pandas to identify key trends and patterns, and builds predictive models to forecast visitorship for the upcoming year by leveraging statistical techniques for enhanced accuracy. Interactive Power BI dashboards are designed to visualize insights, facilitating data-driven decision-making for stakeholder reporting. This initiative is part of a Data & Business Analytics course module focused on practical applications of data analysis and visualization tools."
+            },
+            {
+                "title": "Project Lumino for Design Thinking and Innovation",
+                "start_date": "Jan 2024",
+                "description": "Project Lumino implements Design Thinking methodology to create a stress-relief space for students, utilizing light and technology at a high-traffic junction in SUTD. The project employs Arduino programming for interactive elements, CAD software, Figma, and Twinmotion for precise designs and realistic 3D visualizations, enhancing user experience and effectively communicating the project's vision."
+            }
+        ]
+    },
+    {
+        "name": "Shi Kai Chong",
+        "projects": [
+            {
+                "title": "Predictive Analytics of Choice of Car Safety Feature",
+                "start_date": "Aug 2016",
+                "description": "The project analyzed data from over 10,000 survey instances to model consumer preferences in car safety features, employing machine learning algorithms to predict actual consumer behavior. It achieved the highest prediction accuracy in a school-level predictive analytics challenge, demonstrating its effectiveness in forecasting consumer choices."
+            },
+            {
+                "title": "Investigation of Similarity of Songs in Pop Culture via Network Analysis",
+                "start_date": "Mar 2015",
+                "description": "The project models 250 Billboard Hot 100 songs as a directed network using Python, with nodes representing chords and edges representing chord progressions, to analyze the similarity of modern pop music. By employing Degree, Eigenvector, and Katz centrality measures, it demonstrates that most pop music from the past three years adheres to a common 4-chord progression. This research, conducted in collaboration with Chordify, highlights the analytical approach to understanding musical patterns in pop culture."
+            },
+            {
+                "title": "Stochastic Optimization of Sandwich Delivery Service",
+                "start_date": "Jan 2015",
+                "description": "The project optimizes the delivery system for Breadyard, a local sandwich caf\u00e9, by modeling order inter-arrival times with an exponential distribution using Pearson\u2019s chi-squared and Kolmogorov-Smirnov tests, and representing the delivery system as an M/G/1 queue. Monte Carlo simulations programmed in Python evaluate alternative delivery models to identify the optimal policy balancing cost and delivery time."
+            }
+        ]
+    },
+    {
+        "name": "Anirudh Bharadwaj",
+        "projects": [
+            {
+                "title": "Equity Valuation - First Solar (FSLR)",
+                "start_date": "Sep 2024",
+                "description": "The project employs a thesis-driven approach to evaluate First Solar's (FSLR) equity by linking potential changes in products, operations, industry, and government regulations to the company's profitability and valuation. It identifies necessary assumptions and data for validating the thesis and valuation model, considers counter-theses and risks, and applies a Discounted Cash Flow (DCF) Valuation to project cash flows from 2025 to 2029, ultimately determining the firm's target share price."
+            },
+            {
+                "title": "Investment Stock Pitch (Spotify)",
+                "start_date": "Feb 2024",
+                "description": "The project involved a comprehensive fundamental and technical analysis of Spotify (NYSE: SPOT), utilizing over 50 financial reports and articles from the Bloomberg Terminal to assess firm insights, competitor positioning, and industry trends. Key performance and risk metrics were presented, employing relevant financial theories and models to elucidate growth drivers and weaknesses, with projections for the security's performance in FY24. This analysis was part of a collaborative module assignment, culminating in a detailed report and presentation."
+            },
+            {
+                "title": "Investment Portfolio Simulator",
+                "start_date": "Jan 2024",
+                "description": "The project implements an interactive investment portfolio simulation tool that utilizes an agent-based simulation approach to model stock returns over a 40-year span, catering to various risk profiles. Designed to assist portfolio managers and wealth accumulation companies, it enables the crafting of strategic investment strategies by emulating real-world investing dynamics. Originating from the ESD Course: 40.240 Investment Science, the simulation provides valuable insights into the differences in returns generated by risk-averse and high-risk portfolio allocation strategies."
+            },
+            {
+                "title": "Dashboard for Farm Trials Insight",
+                "start_date": "Jan 2023",
+                "description": "The project develops a user-friendly dashboard using Power BI to enable stakeholders to monitor the progress of crop protection product trials and ensure timely launches. It involves data cleaning and pre-processing in Excel, followed by data modeling and prototyping in Power BI, with iterative consultations to refine the final product."
+            },
+            {
+                "title": "Energy Improvements to USB Peltier Fridge",
+                "start_date": "Sep 2022",
+                "description": "The project enhances the energy efficiency of a USB Peltier fridge by a factor of 10 through strategic thermodynamic modifications. It systematically collects and analyzes data to evaluate the impact of each modification, demonstrating significant improvements in energy consumption."
+            },
+            {
+                "title": "Regression Model to Predict Food Security",
+                "start_date": "Sep 2022",
+                "description": "The project develops a regression model using Python to predict the prevalence of food insecurity over a three-year average, focusing on factors related to food availability and accessibility. It employs KNN imputation and outlier visualization techniques to enhance model accuracy and reliability."
+            },
+            {
+                "title": "Design Thinking Project",
+                "start_date": "Jan 2022",
+                "description": "The project implements a faceted roof and shelter system at Changi Business Park, featuring motion-sensored lighting powered by solar panels and a transparent LCD board for enhanced communication. S-shaped benches are integrated to facilitate interaction, while a transparent water column is designed for efficient water drainage. This design addresses environmental and social interaction challenges in the area."
+            },
+            {
+                "title": "CFA Institute Research Challenge",
+                "start_date": "Nov 2021",
+                "description": "The project conducts a comprehensive analysis of SATS Ltd., producing a detailed research report that encompasses business description, industry overview, competitive positioning, investment summary, valuation, financial analysis, and investment risks. Utilizing financial modeling and valuation frameworks, the report provides insights into the company's market standing and potential investment opportunities. This analysis forms part of the CFA Institute Research Challenge, emphasizing technical proficiency in financial analysis and strategic evaluation."
+            },
+            {
+                "title": "Python Application Project",
+                "start_date": "Nov 2021",
+                "description": "The project utilizes Python and the Tkinter framework to develop an interactive game designed to teach young children the fundamentals of investing. It implements functions and user-interactive buttons for buying and selling stocks, and incorporates text files to provide news reports on companies, enhancing the educational experience."
+            }
+        ]
+    },
+    {
+        "name": "Jeremia Juanputra",
+        "projects": [
+            {
+                "title": "Fake News Authentication Plaform",
+                "start_date": "Dec 2017",
+                "description": ""
+            },
+            {
+                "title": "Flexible Photovoltaics",
+                "start_date": "May 2017",
+                "description": ""
+            },
+            {
+                "title": "Backbot",
+                "start_date": "Aug 2017",
+                "description": "The project implements an interactive system designed to assist users with core and lower back exercises, enhancing their workout routines through real-time feedback. Utilizing advanced motion tracking frameworks, the system accurately monitors user movements to ensure proper form and technique. Developed as a module within a larger fitness application, it addresses the common issue of incorrect posture during exercises, thereby reducing the risk of injury and improving overall effectiveness."
+            },
+            {
+                "title": "Personal Robot Companion (IEEE)",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Jatlyson Ang",
+        "projects": [
+            {
+                "title": "[60.003] Product Design Studio - Nika Atlas",
+                "start_date": "Jan 2025",
+                "description": "The project, part of the Product Design Studio module at Singapore University of Design and Technology, introduces Atlas, a hybrid VTOL drone engineered to enhance geospatial mapping missions by combining vertical takeoff with fixed-wing cruise capabilities. This design addresses the limitations of traditional drones by eliminating runway requirements and improving flight efficiency and data acquisition through modularity, endurance, and adaptability, thus optimizing operations in constrained environments."
+            },
+            {
+                "title": "[03.007] Design Thinking and Innovation - EduCUBE",
+                "start_date": "Jan 2024",
+                "description": "EduCUBE, developed as part of a Design Thinking and Innovation module at the Singapore University of Design and Technology, is a tool designed to enhance classroom interactions and student engagement. The system employs three ESP32-S3 microcontrollers, six ILI9341 TFT 2.4-inch displays, and an MPU6050 gyroscope and accelerometer to address challenges such as maintaining student attention and facilitating communication. Utilizing libraries like Bodmer's TFT eSPI and Adafruit's MPU6050, EduCUBE optimizes student-student, student-speaker, and student-teaching assistant interactions, thereby improving the overall learning experience."
+            },
+            {
+                "title": "[10.014] Computational Thinking for Design - Mini Arcade",
+                "start_date": "Oct 2023",
+                "description": "The project implements a mini arcade system as part of the Computational Thinking module at Singapore University of Design and Technology, utilizing Python to develop four distinct games: Snake, Space Shooter, Lumberjack, and Air Hockey. Designed to alleviate student stress, the system is intended for installation above the Indoor Sports Hall, providing a recreational outlet near food vending machines."
+            }
+        ]
+    },
+    {
+        "name": "Yuqing Jiang",
+        "projects": [
+            {
+                "title": "Heuristics and Systems Theory",
+                "start_date": "Apr 2025",
+                "description": "The project employs applied genetic algorithms to optimize casino floor layouts, followed by a simulation of a mini-model to test and validate the solution's performance. Additionally, it utilizes systems theory to analyze a blood glucose regulation model, focusing on examining equilibrium points and assessing system stability."
+            },
+            {
+                "title": "Manufacturing and Service Operations Project",
+                "start_date": "May 2025",
+                "description": "The project employs a Lean LEGO production simulation to compare push (forecast-driven) and pull (demand-driven) systems, focusing on their effects on workflow efficiency, inventory levels, and costs. It demonstrates that pull-based operations, when supported by effective communication and coordinated team processes, significantly reduce waste and enhance responsiveness."
+            },
+            {
+                "title": "Bayesian Regression & Predictive Modeling Project",
+                "start_date": "Jan 2025",
+                "description": "The project implements Bayesian linear regression and bivariate normal distributions to analyze real-world datasets, deriving posterior and predictive distributions to enhance probabilistic inference. Conducted as part of SUTD's 40.017 Probability and Statistics module, it involves prior sampling and visualization of prediction uncertainty, offering practical applications in decision-making under uncertainty."
+            },
+            {
+                "title": "Optimization Project",
+                "start_date": "Jan 2025",
+                "description": "The project employs mixed-integer linear programming (MILP) to address a real-world decision problem, effectively modeling constraints and defining objective functions. Utilizing JuMP in Julia, it conducts simulations to validate solution correctness and achieve strategic optimization."
+            },
+            {
+                "title": "Transformation of Data into Business Insights",
+                "start_date": "Jan 2025",
+                "description": "The project implements automated data cleaning methods using Tableau and R to create a comprehensive dashboard. It derives actionable insights for marketing optimization, thereby supporting strategic decision-making for International SOS."
+            },
+            {
+                "title": "Cell-Based Meat Innovation",
+                "start_date": "Sep 2024",
+                "description": "The project develops bioprocesses for producing cell-based meat with enhanced nutritional value and sensory similarity to conventional meat, emphasizing sustainability and scalability. It integrates biology, engineering, and market research to create practical food-tech solutions, addressing real-world feasibility challenges."
+            },
+            {
+                "title": "Neighbourhood-Based Traditional Chinese Medicine for Healthy Aging",
+                "start_date": "Jul 2024",
+                "description": "The project employs the design thinking framework\u2014comprising Discover, Define, Develop, and Deliver phases\u2014to create community-level solutions that enhance self-care and healthy aging through Traditional Chinese Medicine (TCM). Conducted in collaboration with Shanghai Jiao Tong University as part of the 2024 FACT program, it focuses on empowering elderly individuals by integrating accessible TCM practices into their daily lives."
+            },
+            {
+                "title": "Flood Adaptation Model",
+                "start_date": "Jan 2024",
+                "description": "The project develops a comprehensive model that employs data analysis and mathematical modeling to compare multiple flood adaptation strategies, focusing on measuring the cost of damage. It evaluates various solutions for coastal resilience and prioritizes the most effective methods to mitigate flood impact."
+            },
+            {
+                "title": "FM Transmitter & Variable Capacitor Project",
+                "start_date": "Jan 2024",
+                "description": "The project involves the construction of a variable capacitor and inductor designed to function at approximately 60 MHz within an FM transmitter. It integrates theoretical calculations with experimental validation using a Software-Defined Radio (SDR) to assess performance. This work was conducted as part of a module focused on RF circuit design and testing."
+            },
+            {
+                "title": "Vertical Farming & LCA Study",
+                "start_date": "Jan 2024",
+                "description": "The project employs Life Cycle Assessment (LCA) to evaluate the sustainability of consumer products, emphasizing resource efficiency and environmental impact. It investigates the feasibility of vertical farming in Singapore as a strategic solution for food security, addressing space constraints and optimizing resource use."
+            },
+            {
+                "title": "Parachute Relief System",
+                "start_date": "Sep 2023",
+                "description": "The project implements an airdrop system for medical supplies using an IMU sensor and microcontroller programming, integrating physics principles and calculus-based modeling to optimize flight time and minimize impact forces. Excel data analysis is employed to refine system performance, while social science research informs ethical considerations for delivery in remote areas."
+            },
+            {
+                "title": "Rubber-Band Racer",
+                "start_date": "Sep 2023",
+                "description": "The project implements a 3D-printed toy car powered by rubber bands to demonstrate the principles of energy transformation. Utilizing physics concepts, the design effectively showcases the conversion of potential energy stored in the stretched rubber bands into kinetic energy, propelling the car forward. This project serves as an educational module to illustrate fundamental physics in a tangible and interactive manner."
+            },
+            {
+                "title": "Light - Dream Express",
+                "start_date": "Feb 2023",
+                "description": "The Dream Express implements a rapid relaxation solution for university students, enabling mental rejuvenation within 10 minutes. Developed by the team Photosynthesis, this project addresses fatigue, stress, and anxiety through an innovative framework designed to enhance academic and personal growth."
+            },
+            {
+                "title": "Project Textstyle",
+                "start_date": "Mar 2021",
+                "description": "The project implements a sustainable solution to fast fashion by transforming textile waste into reusable materials through a shred-to-thread bin system. It integrates an interactive app for data analysis and digital marketing, alongside organizing a community clothes swap event to enhance sustainability awareness. This initiative leverages skills in product development, event management, and technology integration."
+            }
+        ]
+    },
+    {
+        "name": "Yu Fei Wong",
+        "projects": [
+            {
+                "title": "Breakify",
+                "description": "Breakify is a platform designed to optimize work-rest cycles by utilizing a Break-Work Timer with a minimalistic interface, allowing users to manage sessions without distractions. It integrates with Telegram for social features, enabling users to coordinate breaks with friends, and employs the Google Maps API to generate walking routes to landmarks based on user-specified durations. The system aims to alleviate the strain of prolonged work sessions by analyzing past user data to enhance break scheduling."
+            },
+            {
+                "title": "ElderGPT",
+                "description": "ElderGPT addresses the complexity of mobile applications for the elderly by implementing a user-friendly interface that facilitates interaction through text and speech, utilizing Streamlit for multilingual support and the ElevenLabs API for varied speech output. The system integrates seamlessly with applications such as Google Calendar, Google Translate, Google Maps, News, Door Dash, and email via custom tools in the Langchain agent, enhancing accessibility and usability for elderly users."
+            },
+            {
+                "title": "Erudite",
+                "description": "Erudite implements a structured learning system that leverages large language models (LLMs) to enhance student learning by reducing cognitive leaps, topologically sorting topics, and providing periodic evaluations. It decomposes complex questions into manageable subsets to foster critical thinking, generates topic dependencies for targeted revision, and offers diagnostic evaluations to guide users towards appropriate resources based on their competency levels. This project addresses the challenges of managing college workloads and improving self-guided learning efficiency."
+            },
+            {
+                "title": "greenflags",
+                "description": "The project implements an AI-powered roommate matching service designed to enhance compatibility by analyzing detailed personality traits and preferences through nuanced free-text responses. It utilizes AI-enhanced matching algorithms to provide compatibility scores and visual representations of overlapping traits, offering a user-friendly interface for seamless interaction. This system addresses the challenge of finding compatible roommates in high-demand housing markets by focusing on personal compatibility rather than just housing features."
+            },
+            {
+                "title": "Jobpocalypse",
+                "description": "The project implements a retro 2D action shooter game where players control a character named Timmy, a Computer Science graduate, navigating a survival scenario against HR recruiters. It emphasizes skill upgrades and continuous learning, integrating a narrative that underscores the necessity of adapting to industry demands. The game serves as a module to highlight the importance of developing industry-relevant skills beyond basic coursework to enhance employability in the tech sector."
+            },
+            {
+                "title": "LangUR",
+                "description": "LangUR is a language learning platform designed to enhance fluency by integrating language practice into users' daily workflows. The system utilizes the LIX scoring algorithm for performance evaluation and features adaptive learning capabilities that tailor the experience to individual abilities. By incorporating review quizzes and personalized article suggestions, LangUR reinforces learning and ensures consistent progress beyond the beginner level."
+            },
+            {
+                "title": "SingCast",
+                "description": "SingCast is a multi-functional web platform that implements data visualization and machine learning to support Singtel stakeholders. It features a dashboard for detailed store insights, a campaigns page for managing marketing efforts, and integrates a Random Forest Regressor Model to forecast mobile phone demand, optimizing logistical planning and supply management."
+            }
+        ]
+    },
+    {
+        "name": "Tan See Yen Amanda",
+        "projects": [
+            {
+                "title": "Economic Dynamic System Analysis",
+                "start_date": "Jul 2025",
+                "description": "The project conducts a comprehensive analysis of a dynamic economic model, identifying equilibrium points and evaluating the controllability and observability of its linearized form. It successfully designs state-feedback controllers and observer gains to ensure desired system stability and performance. This work highlights the technical proficiency in dynamic system analysis and control design."
+            },
+            {
+                "title": "Kaggle Competition: Discrete Choice Modeling",
+                "start_date": "Jul 2025",
+                "description": "The project implements multiple discrete choice models, including XGBoost and Multinomial Logit, to predict outcomes in a Kaggle competition. It enhances model accuracy and performance by incorporating advanced predictive methods through independent research and application."
+            },
+            {
+                "title": "Optimized World Tour Plan",
+                "start_date": "May 2025",
+                "description": "The project implements a metaheuristic model in Python to address a complex world tour optimization problem by formulating realistic constraints and processing a large-scale dataset. It utilizes a metaheuristic algorithm to efficiently explore the solution space, resulting in a cost-effective and time-efficient travel itinerary."
+            },
+            {
+                "title": "Optimized diet plan for pregnant mothers",
+                "start_date": "Jan 2025",
+                "description": "The project implements a linear optimization model to develop an optimized diet plan for pregnant mothers, utilizing the IJulia solver to address real-life constraints effectively. By focusing on the linearization problem, the system ensures that nutritional requirements are met while optimizing for cost and accessibility. This approach enhances the practicality and applicability of dietary recommendations in real-world scenarios."
+            },
+            {
+                "title": "Predictive model for chemical tanker freight rates",
+                "start_date": "Jan 2025",
+                "description": "The project develops predictive models using R Studio to forecast chemical tanker freight rates across four distinct shipping lanes. It identifies and incorporates external factors, including macroeconomic variables, to enhance the accuracy of the predictions. Collaborating with Eastport Maritime Pte Ltd, the project aims to provide a robust analytical tool for the maritime industry."
+            },
+            {
+                "title": "MisTree DTI (Design Thinking and Innovation)",
+                "start_date": "Jan 2024",
+                "description": "The MisTree DTI project implements design thinking and innovation methodologies to generate creative solutions and ideas. It involves conducting comprehensive research, acquiring necessary materials, and utilizing laser and wood cutting techniques to construct the product. Additionally, the project includes creating informative posters to effectively communicate the design process and outcomes."
+            },
+            {
+                "title": "Jerry The Cat Game",
+                "start_date": "Dec 2023",
+                "description": "The project implements a game using Python and the Turtle library, structured through modular coding on Replit. It utilizes ASCII art for character design and organizes game components across different folders, showcasing effective team collaboration and code management. The project is available for review at https://github.com/hiihida/CTD1DProject."
+            }
+        ]
+    },
+    {
+        "name": "Gabriel Kay",
+        "projects": [
+            {
+                "title": "Fidor Bank Open Banking Web Application",
+                "start_date": "Dec 2021",
+                "description": "The project implements a foreign exchange services web application using Flask as the framework and Python as the programming language. It integrates various APIs to provide real-time data on currency prices, news, and technical indicators, enhancing the user experience with up-to-date financial information."
+            },
+            {
+                "title": "Football News Hybrid App",
+                "start_date": "Apr 2021",
+                "description": "The project implements a hybrid football news application utilizing Ionic for cross-platform development, Google Firebase for real-time database management, and TypeScript for robust programming. This system efficiently delivers up-to-date football news, leveraging modern frameworks to enhance user experience and data handling."
+            },
+            {
+                "title": "Restaurant Review Website",
+                "start_date": "Oct 2020",
+                "description": "The project implements a restaurant review website as part of a school assignment, utilizing Visual Studio Code for development, MySQL for database management, and JavaScript for programming. It addresses the need for an interactive platform to review and rate dining establishments, showcasing proficiency in web development and database integration."
+            },
+            {
+                "title": "Music App",
+                "start_date": "Apr 2020",
+                "description": "The project implements a music application developed using Android Studio, focusing on delivering a seamless user experience for music playback and management. Utilizing Java and XML, the app integrates media playback functionalities and a user-friendly interface. This module addresses the challenge of efficient audio streaming and organization on Android devices."
+            }
+        ]
+    },
+    {
+        "name": "Yogesh Shelgaonkar",
+        "projects": [
+            {
+                "title": "PayPal Verification Application",
+                "start_date": "May 2022",
+                "description": "The project implements an Android application for PayPal, developed using Java and Android Studio, featuring an \"Identity Enrolment and Issuance\" module designed to assist migrant populations in accessing traditional financial services. The application effectively verifies user identities to prevent misuse of PayPal's services, enhancing security and trust in financial transactions."
+            },
+            {
+                "title": "SUTD Hate Speech Machine Learning Competition - 2nd Place",
+                "start_date": "May 2022",
+                "description": "The project implements a machine learning model in Python to detect hate speech, utilizing Logistic Regression and XGBoost algorithms. This model was developed as part of the SUTD Hate Speech Machine Learning Competition, where it achieved second place."
+            },
+            {
+                "title": "Homeguard Android Application",
+                "start_date": "Jan 2022",
+                "description": "The project implements an affordable home surveillance system by developing an Android application that integrates with Raspberry Pi and webcams. It leverages the Android platform to provide a user-friendly interface for monitoring and controlling the surveillance setup. This system addresses the need for cost-effective home security solutions by utilizing readily available hardware and open-source software frameworks."
+            },
+            {
+                "title": "Space Escape",
+                "start_date": "Jan 2022",
+                "description": "The project implements a handheld game where players must navigate through obstacles for 30 seconds across three difficulty levels. It features a beta CPU coded on an FPGA using Lucid programming, with an acrylic casing crafted via laser cutting, and the hardware components are soldered and wired to complete the game system."
+            },
+            {
+                "title": "Simon Says",
+                "start_date": "Jan 2021",
+                "description": "The project implements a reflex game designed to assist patients with Parkinson's and Dementia in improving hand motor function. It utilizes C++ for Arduino programming and incorporates 3D modeling in SolidWorks, along with 3D printing for the game's casing. The hardware assembly involved soldering and integrating various components to create a functional prototype."
+            },
+            {
+                "title": "Piezo Tracker",
+                "start_date": "Sep 2020",
+                "description": "The project implements a shoe-integrated tracking system for dementia patients, utilizing piezoelectric technology to harness energy from footsteps for continuous power. This innovative solution addresses the common issue of patients forgetting or failing to charge traditional trackers, ensuring reliable monitoring of their movements outside the home."
+            }
+        ]
+    },
+    {
+        "name": "Kellie Sim",
+        "projects": [
+            {
+                "title": "Prioritisation of Echocardiography Requests",
+                "start_date": "Jan 2024",
+                "description": "The project developed machine learning models, specifically using LightGBM, to classify and prioritize echocardiogram requests, achieving a maximum ROC AUC score of 0.672. It engineered 55 features from clinical data, including demographics, clinical history, and lab results, with significant predictors identified as creatinine, troponin levels, and patient age. SHAP and LIME were employed for global and local explainability of model predictions, as part of the AI for Healthcare module in collaboration with Sengkang General Hospital."
+            },
+            {
+                "title": "Glowing Guide / Enhanced Patient Journey at Hospitals",
+                "start_date": "Sep 2023",
+                "description": "The project implements a personalized directional assistance system within hospitals by integrating shoeprint scanning and visual redesigns of signage, utilizing Amazon Web Services (AWS) for route optimization, database management, and IoT cloud service integration. Developed as part of the 01.400 Capstone 1 and 01.401 Capstone 2 modules at SUTD in collaboration with Alexandra Hospital, the system features a React and Tailwind CSS-based website hosted on AWS Amplify, with AWS Lambda functions in Python and JavaScript supporting various functionalities. User studies and analyses informed the design choices, enhancing system usability and addressing patient, caregiver, and staff pain points."
+            },
+            {
+                "title": "Glucose Conquest",
+                "start_date": "Sep 2023",
+                "description": "The project implements a mobile-based virtual pet serious game using Unity, designed to educate children with Type 1 diabetes on health management skills such as glucometer readings and insulin injections. Developed as part of the 01.114 Instructional Design of Serious Games for Healthcare module at SUTD, in collaboration with KK Women\u2019s and Children\u2019s Hospital, the game integrates frontend design screens created with Figma to enhance user interaction and learning."
+            },
+            {
+                "title": "Guided by Love: A Caregiver\u2019s Path",
+                "start_date": "Sep 2023",
+                "description": "The project, part of the 02.230TS Health Communication and Behaviour Change module at SUTD, developed an interactive video aimed at enhancing empathy and understanding of caregivers' experiences. By employing health communication theories, the video seeks to promote comprehensive support systems for caregivers, with a short trailer produced to illustrate its conceptual direction."
+            },
+            {
+                "title": "PD-opoly",
+                "start_date": "Sep 2023",
+                "description": "The PD-opoly project, developed as part of the 01.101 Technologies for Sustainable Global Health module at SUTD in collaboration with the National Kidney Foundation, addresses the knowledge gap in peritoneal dialysis (PD) among tertiary students in Singapore. It features an interactive Figma prototype for a microsite designed to enhance learning experiences before, during, and after outreach sessions, and includes a board game adapted from Monopoly to simplify and communicate the complexities of PD as an alternative treatment for kidney failure."
+            },
+            {
+                "title": "Introduction To Neural Prostheses/Neural Assistive Devices",
+                "start_date": "May 2023",
+                "description": "The project, conducted under SUTD's Undergraduate Research Opportunities Programme, focused on developing a research database to facilitate the creation of a neural prosthesis prototype capable of integrating with the human nervous system through computer-brain interfacing. It involved a comprehensive literature review of existing neural prostheses and advancements in cognitive neuroscience, identifying research limitations, and engaging in critical discussions of relevant studies with team members."
+            },
+            {
+                "title": "MindBridge",
+                "start_date": "Feb 2023",
+                "description": "MindBridge, developed as part of the CS374 Introduction to Human-Computer Interaction module at KAIST, implements a Figma prototype to enhance mental health management for working adults. The project focuses on redesigning user interfaces to leverage existing social connections, encouraging self-care through an interactive experience akin to caring for a virtual pet."
+            },
+            {
+                "title": "Privacy Preservation Project",
+                "start_date": "Feb 2023",
+                "description": "The Privacy Preservation Project, conducted at NCLab under Professor Junehwa Song at KAIST, developed an Android application designed to safeguard the privacy of visually impaired individuals during assisted tasks. The application leverages GPT-3.5 APIs to effectively censor sensitive information, ensuring privacy while maintaining functionality."
+            },
+            {
+                "title": "Sterile Instrument Transporter",
+                "start_date": "Feb 2023",
+                "description": "The project implements a proof-of-concept robot designed to automate the distribution and visual inspection of sterilized medical instruments in healthcare facilities. Utilizing SLAM for mapping hospital layouts, it employs navigation algorithms to transport sterile instruments from central sterile services departments to clinics, and leverages anomaly and object detection to automate the inspection of peel pouches. Developed as part of the CS470 Introduction to Artificial Intelligence module at KAIST, the system addresses the need for efficient and reliable sterile instrument management."
+            },
+            {
+                "title": "A Study on the Effects of Bold and Italics on the Memory of University Students",
+                "start_date": "May 2022",
+                "description": "The project investigates the impact of typographic emphasis, specifically bold and italics, on the comprehension accuracy of university students. Conducted as part of the 02.145TS Surveys and Experiments in the Social Sciences module at SUTD, the study involved a literature review to establish theoretical foundations and the preparation of experimental materials. An experimental study with 25 participants was executed to assess how these typographic elements influence memory retention in reading English passages."
+            },
+            {
+                "title": "Online Hate Speech Detection",
+                "start_date": "May 2022",
+                "description": "The project focuses on developing machine learning models for online hate speech detection as part of the 50.007 Machine Learning module. It employs various techniques, including CatBoost Classifier, which achieved the highest accuracy of 72.399%, alongside Random Forest with PCA, Grid Search, Adaboost, Bernoulli Naive Bayes, Support Vector Machine, Naive Bayes Support Vector Machine, Logistic Regression, LightGBM, and XGBoost. Extensive hyperparameter tuning and advanced methods not covered in the course were utilized to enhance model performance, leading to the top position on the Kaggle competition's private leaderboard."
+            },
+            {
+                "title": "TransferConnect",
+                "start_date": "May 2022",
+                "description": "TransferConnect, developed as part of the 50.003 Elements of Software Construction module, facilitates the transfer and conversion of loyalty points between banks and loyalty programs. The system utilizes the MERN stack, with a back-end API server and database built using Express.js, Node.js, and MongoDB, and a front-end bank app developed with React and Ant Design Pro. Extensive testing, including unit tests with Jest and front-end tests with Selenium, ensures robust functionality, while Express.js enables webhook notifications for transaction status updates."
+            },
+            {
+                "title": "A Study on the Effects of Lo-Fi Music on the Ability to Recall Information",
+                "start_date": "Jan 2022",
+                "description": "The project investigates the impact of Lo-Fi music on information recall and memory reconstruction errors, conducted as part of the 02.218 Introduction to Psychology module at SUTD. It involved a comprehensive literature review to explore relevant theories and the development of experimental materials, culminating in a study with 40 participants to assess the influence of context specificity on cognitive recall abilities."
+            },
+            {
+                "title": "Pick Before Go",
+                "start_date": "Jan 2022",
+                "description": "The Pick Before Go project, developed as part of the 50.001 Information Systems & Programming module, implements a mobile application designed to enhance the shopping experience at Pick & GO stores. The app features a QR code for store entry, a promotion carousel, and a searchable product catalog that displays item availability and descriptions. Additionally, it provides administrative tools for staff to manage inventory, update promotions, and add new products, streamlining operational tasks and ensuring efficient stock management. GitHub repository: https://github.com/kelliesyhh/SUTD-CSD-Term4-50.001-1DProject-PickBeforeGo."
+            },
+            {
+                "title": "Triangular Peg Solitaire",
+                "start_date": "Jan 2022",
+                "description": "The project implements the 15-hole triangular configuration of Peg Solitaire, a single-player strategy puzzle game, as part of the 50.002 Computation Structures module. It features 6816 solutions and is divided into three levels of increasing difficulty, utilizing a color-coded LED system for visual feedback: blue for remaining pegs, green for the selected peg, and red for valid jump holes. The game enhances spatial and logical reasoning skills by challenging players to eliminate pegs until only one remains."
+            },
+            {
+                "title": "Expressive Avatars To Reduce Social Anxiety In Therapy",
+                "start_date": "May 2021",
+                "description": "The project explores the use of expressive avatars as an alternative medium for delivering psychotherapy interventions, aiming to reduce social anxiety during therapy sessions. Conducted under SUTD's Undergraduate Research Opportunities Programme, it involved a study comparing interactions with and without avatars, utilizing statistical analysis tools like JMP for data analysis. The research also delved into Heart Rate Variability (HRV) measurement software to understand its physiological implications and the scientific principles underlying HRV calculations."
+            },
+            {
+                "title": "Computational Tool for Biomedical Data Analysis",
+                "start_date": "May 2021",
+                "description": "The project implements a multi-layer perceptron neural network to predict cardiac health using patient demographics, metabolomics data, and exercise information as predictor variables. Conducted under SUTD's Undergraduate Research Opportunities Programme, it involved a comprehensive literature review and extensive pre-processing of a dataset comprising 90 data points. The model achieved approximately 75% accuracy in predicting cardiac health outcomes."
+            },
+            {
+                "title": "Patient Output Inspection with AI",
+                "start_date": "May 2020",
+                "description": "The project, undertaken as part of SUTD's Undergraduate Research Opportunities Programme (UROP), focuses on developing AI and machine learning algorithms for automatic patient output inspection. It implements Transfer Learning models and explores various texture classification methods to enhance image processing capabilities, demonstrating AI's potential applications in healthcare beyond diagnostics."
+            },
+            {
+                "title": "SUTD Term 1 Simulator",
+                "start_date": "Sep 2020",
+                "description": "The SUTD Term 1 Simulator, developed for the 10.014 Computational Thinking for Design module, is a decision-based game that simulates a Freshmore student's life through various scenarios. It employs character attributes\u2014Health, Money, Social, and Intelligence\u2014whose values are influenced by user choices and mini-games, offering a dynamic gauge of decision-making skills. The game challenges players to maintain balanced attributes to avoid game termination, drawing inspiration from titles like Reigns and Episode/Choices."
+            },
+            {
+                "title": "An Intelligent App that Cares for Your Mental Wellbeing / SG@Love App",
+                "start_date": "May 2020",
+                "description": "The SG@Love App implements a mobile healthcare delivery system designed to assess mental health conditions remotely, utilizing AI technologies such as speech detection, image recognition, and text analysis. By integrating a chatbot module with the National Speech Corpus for improved engagement with locally accented English, the app provides an accessible first level of support for individuals with mental health concerns. Additionally, it leverages collective intelligence by gathering anonymous user data to create a public map of mental health hotspots, aiding governmental and healthcare institutions in targeted interventions."
+            },
+            {
+                "title": "Fast Prototyping",
+                "start_date": "May 2019",
+                "description": "The project implements a web application using React and Flask to evaluate novel language technologies for enhancing workflow efficiencies in a hospital telehealth setting. It leverages Ant Design for UI components and Google Firebase for database management. The application features a speech data component that processes nurse-patient dialogue transcriptions with an LSTM model and a structured data component that analyzes input data with a machine learning model, displaying results in tables and time-series graphs."
+            },
+            {
+                "title": "Depression Detection using Speech Analysis (Mobile App)",
+                "start_date": "Oct 2018",
+                "description": "The project implements an Android application integrated with a Python-based web server to facilitate depression detection through speech analysis. Utilizing a deep learning model, the system predicts the likelihood of depression in users, effectively bridging the application and server for seamless data processing. This initiative explores the intersection of technology and mental health, showcasing advancements in healthcare applications."
+            },
+            {
+                "title": "Mockup of a Eco-Friendly House",
+                "start_date": "Jun 2019",
+                "description": "The project develops a mock-up of an eco-friendly house using Micro:bit, sensors, LEDs, and cardboard to address urban slum challenges in the Philippines, aligning with the United Nations\u2019 Sustainable Development Goal 13. It integrates renewable energy solutions and promotes recycling and waste reduction habits. This initiative enhances STEM skills among ASEAN youths through collaborative problem-solving."
+            },
+            {
+                "title": "JAVERS: Just A Very Expressive Robot",
+                "start_date": "Mar 2019",
+                "description": "The project implements a high-fidelity and low-fidelity prototype of an expressive cleaning robot using Arduino and Raspberry Pi, developed during SUTD's 3-week Compact 3.007 Programme. Designed to assist elderly individuals living alone, the robot integrates cognitive games like tic-tac-toe to help prevent dementia onset. The low-fidelity prototype was recognized with an 85/100 score for presentation and a 5/10 for design by the A\u2019 Design Award."
+            },
+            {
+                "title": "Mockup Application for Lomprayah",
+                "start_date": "Oct 2018",
+                "description": "The project developed a mobile application mockup for Lomprayah, a Thai speedboat company, to enhance user experience. It integrates features such as a chatbot powered by Amazon Lex, 360\u00b0 video capabilities, customized tour programs, and e-ticketing. This application leverages AWS tools to streamline customer interactions and improve service delivery."
+            },
+            {
+                "title": "Arduino system to aid patients with anxiety",
+                "start_date": "Apr 2018",
+                "description": "The project implements an Arduino-based system designed to assist patients with anxiety by facilitating controlled breathing exercises. Utilizing electronic components such as LEDs, Bluetooth modules, and speakers, the system is modeled after the 4-7-8 breathing technique to guide users through calming breath cycles."
+            },
+            {
+                "title": "Android application to aid the visually impaired",
+                "start_date": "Oct 2017",
+                "description": "The project implements an Android application developed using MIT App Inventor, designed to assist visually impaired users with everyday tasks. The application facilitates functionalities such as contact calling, auditory announcements of date and time, and audio and media capture, enhancing accessibility and independence for users."
+            }
+        ]
+    },
+    {
+        "name": "Azib Lim",
+        "projects": [
+            {
+                "title": "Dock Schedule Optimisation",
+                "start_date": "Sep 2023",
+                "description": "The project implements an optimisation algorithm using Python to enhance an automated dock scheduling system, aiming to maximise revenue and dock utilisation. Developed as part of an industry-based Capstone project with a local shipyard, the system significantly improves planning efficiency by optimising scheduling processes."
+            },
+            {
+                "title": "Improving Productivity and Efficiency of the Operations Team",
+                "start_date": "Jan 2022",
+                "description": "The project employs data analytics frameworks to enhance the productivity and efficiency of the Operations Team at Rockwell Collins Southeast Asia Pte. Ltd. as part of SUTD's Data and Business Analytics course. By leveraging advanced analytical techniques, the initiative aims to identify operational bottlenecks and implement data-driven solutions to optimize team performance."
+            },
+            {
+                "title": "Airport Congestion Delays in the ASEAN Region",
+                "start_date": "May 2021",
+                "description": "The project employs machine learning models in Python to analyze and predict airport congestion delays in the ASEAN region. By leveraging advanced data analytics, it aims to identify key factors contributing to delays and forecast future congestion patterns. This research initiative is led by a professor from the Singapore University of Technology and Design (SUTD)."
+            }
+        ]
+    }
+]
